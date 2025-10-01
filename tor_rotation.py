@@ -27,6 +27,28 @@ class TorRotator:
     def incr(self):
         self._count += 1
 
+    async def force_rotate(self):
+        """Force a NEWNYM regardless of counters/interval."""
+        async with self._lock:
+            if not (Controller and Signal):
+                self.logger.warning("stem not available; skip forced Tor rotation.")
+                return False
+            try:
+                with Controller.from_port(address=self.host, port=self.control_port) as c:
+                    if self.password:
+                        c.authenticate(password=self.password)
+                    else:
+                        with suppress(Exception):
+                            c.authenticate()
+                    c.signal(Signal.NEWNYM)
+                    self._last = time.time()
+                    self._count = 0
+                    self.logger.info("Tor NEWNYM forced.")
+                    return True
+            except Exception as e:
+                self.logger.warning(f"Forced Tor rotation failed: {e}")
+                return False
+
     async def maybe_rotate(self):
         async with self._lock:
             if not self._can_rotate():

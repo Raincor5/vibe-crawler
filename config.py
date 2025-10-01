@@ -65,7 +65,14 @@ class Config:
     timezone: str = ""
     viewport: tuple[int, int] = field(default_factory=lambda: (1920, 1080))
     device_type: str = "desktop"
-    playwright_browser: str = "firefox"  # new: 'firefox', 'chromium', or 'webkit'
+    playwright_browser: str = "firefox"
+    # Anti-bot retry settings
+    antibot_retry_limit: int = 4  # total attempts including first
+    antibot_backoff_seconds: float = 2.0
+    antibot_enable: bool = True
+    antibot_fresh_browser: bool = True
+    antibot_force_tor: bool = True
+    antibot_rerandomize: bool = True
     max_concurrency: int = 1
     rate_max_per_interval: int | None = None
     rate_interval_seconds: float = 60.0
@@ -78,7 +85,7 @@ class Config:
             timeout_ms=int(os.getenv("SCRAPER_TIMEOUT_MS", "15000")),
             storage_dir=os.getenv("SCRAPER_STORAGE", "data"),
             engine=os.getenv("SCRAPER_ENGINE", "playwright"),
-            proxy_enabled=os.getenv("SCRAPER_PROXY", "1") == "1",  # default now 1 (enabled)
+            proxy_enabled=os.getenv("SCRAPER_PROXY", "1") == "1",
             tor_socks_host=os.getenv("TOR_SOCKS_HOST", "127.0.0.1"),
             tor_socks_port=int(os.getenv("TOR_SOCKS_PORT", "9050")),
             captcha_api_key=os.getenv("CAPTCHA_API_KEY"),
@@ -92,6 +99,12 @@ class Config:
             rate_max_per_interval=(int(os.getenv("SCRAPER_RATE_MAX", "0")) or None),
             rate_interval_seconds=float(os.getenv("SCRAPER_RATE_INTERVAL", "60")),
             rate_min_delay_seconds=float(os.getenv("SCRAPER_RATE_MIN_DELAY", "0")),
+            antibot_retry_limit=int(os.getenv("SCRAPER_ANTIBOT_RETRY_LIMIT", "4")),
+            antibot_backoff_seconds=float(os.getenv("SCRAPER_ANTIBOT_BACKOFF", "2")),
+            antibot_enable=os.getenv("SCRAPER_ANTIBOT_ENABLE", "1") == "1",
+            antibot_fresh_browser=os.getenv("SCRAPER_ANTIBOT_FRESH_BROWSER", "1") == "1",
+            antibot_force_tor=os.getenv("SCRAPER_ANTIBOT_FORCE_TOR", "1") == "1",
+            antibot_rerandomize=os.getenv("SCRAPER_ANTIBOT_RERANDOMIZE", "1") == "1",
         )
         if cfg.randomize:
             profile = random.choice(UA_PROFILES)

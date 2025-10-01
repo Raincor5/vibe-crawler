@@ -536,3 +536,493 @@ Call log:
 [2025-10-01 05:07:43,818] INFO scraper: Saved: data/scrape_crawl_20251001T040743Z.json
 [2025-10-01 05:07:43,818] INFO scraper: Crawl complete. Pages: 35 saved: data/scrape_crawl_20251001T040743Z.json
 [2025-10-01 05:07:43,839] INFO scraper: Done.
+[2025-10-01 05:23:52,295] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0', 'device_type': 'desktop', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'America/Chicago', 'viewport': (1600, 900), 'engine': 'playwright', 'headless': True}
+[2025-10-01 05:23:52,299] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 05:23:52,299] INFO scraper: Starting crawl: seeds=1 max_pages=50 max_depth=4 concurrency=6
+[2025-10-01 05:23:52,299] INFO scraper: [CRAWL] Depth 0 (1/50): https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec
+[2025-10-01 05:23:53,318] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec
+[2025-10-01 05:23:54,012] INFO scraper: Saved: data/scrape_20251001T042354Z.json
+[2025-10-01 05:23:54,012] INFO scraper: [CRAWL] Depth 1 (2/50): https://www.indeed.com
+[2025-10-01 05:23:54,013] INFO scraper: [CRAWL] Depth 1 (3/50): https://www.indeed.com/companies
+[2025-10-01 05:23:54,013] INFO scraper: [CRAWL] Depth 1 (4/50): https://www.indeed.com/career/salaries
+[2025-10-01 05:23:54,014] INFO scraper: [CRAWL] Depth 1 (5/50): https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com
+[2025-10-01 05:23:54,015] INFO scraper: [CRAWL] Depth 1 (6/50): https://www.indeed.com/promo/resume
+[2025-10-01 05:23:54,081] INFO scraper: [PW] goto https://www.indeed.com
+[2025-10-01 05:23:54,086] INFO scraper: [PW] goto https://www.indeed.com/companies
+[2025-10-01 05:23:54,092] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com
+[2025-10-01 05:23:54,093] INFO scraper: [PW] goto https://www.indeed.com/career/salaries
+[2025-10-01 05:23:54,094] INFO scraper: [PW] goto https://www.indeed.com/promo/resume
+[2025-10-01 05:23:54,759] INFO scraper: Saved: data/scrape_20251001T042354Z.json
+[2025-10-01 05:23:54,773] INFO scraper: Saved: data/scrape_20251001T042354Z.json
+[2025-10-01 05:23:54,790] INFO scraper: Saved: data/scrape_20251001T042354Z.json
+[2025-10-01 05:23:54,805] INFO scraper: Saved: data/scrape_20251001T042354Z.json
+[2025-10-01 05:23:54,814] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:23:55,002] INFO scraper: Saved: data/scrape_20251001T042355Z.json
+[2025-10-01 05:23:55,002] INFO scraper: [CRAWL] Depth 1 (7/50): https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US
+[2025-10-01 05:23:55,032] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US
+[2025-10-01 05:23:55,502] INFO scraper: Saved: data/scrape_20251001T042355Z.json
+[2025-10-01 05:23:55,502] INFO scraper: [CRAWL] Depth 1 (8/50): https://support.indeed.com/hc/en-us/articles/33465379855501-Troubleshooting-Cloudflare-Errors
+[2025-10-01 05:23:55,502] INFO scraper: [CRAWL] Depth 1 (9/50): https://www.indeed.com/support/contact
+[2025-10-01 05:23:55,534] INFO scraper: [PW] goto https://www.indeed.com/support/contact
+[2025-10-01 05:23:55,536] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/33465379855501-Troubleshooting-Cloudflare-Errors
+[2025-10-01 05:23:56,197] INFO scraper: Saved: data/scrape_20251001T042356Z.json
+[2025-10-01 05:23:58,418] INFO scraper: Saved: data/scrape_20251001T042358Z.json
+[2025-10-01 05:23:58,419] INFO scraper: [CRAWL] Depth 2 (10/50): http://www.indeed.com/?zlang=en
+[2025-10-01 05:23:58,419] INFO scraper: [CRAWL] Depth 2 (11/50): https://support.indeed.com/hc/en-us
+[2025-10-01 05:23:58,420] INFO scraper: [CRAWL] Depth 2 (12/50): https://www.indeed.com/?from=zdhcnav&utm_source=zdhc&utm_medium=nav&utm_campaign=jobs&zlang=en
+[2025-10-01 05:23:58,421] INFO scraper: [CRAWL] Depth 2 (13/50): https://www.indeed.com/career-advice?from=zdhcnav&utm_source=zdhc&utm_medium=nav&utm_campaign=cg&zlang=en
+[2025-10-01 05:23:58,478] INFO scraper: [PW] goto https://www.indeed.com/career-advice?from=zdhcnav&utm_source=zdhc&utm_medium=nav&utm_campaign=cg&zlang=en
+[2025-10-01 05:23:58,479] INFO scraper: [PW] goto http://www.indeed.com/?zlang=en
+[2025-10-01 05:23:58,480] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us
+[2025-10-01 05:23:58,481] INFO scraper: [PW] goto https://www.indeed.com/?from=zdhcnav&utm_source=zdhc&utm_medium=nav&utm_campaign=jobs&zlang=en
+[2025-10-01 05:23:59,063] INFO scraper: Saved: data/scrape_20251001T042359Z.json
+[2025-10-01 05:23:59,161] INFO scraper: Saved: data/scrape_20251001T042359Z.json
+[2025-10-01 05:23:59,182] INFO scraper: Saved: data/scrape_20251001T042359Z.json
+[2025-10-01 05:24:01,479] INFO scraper: Saved: data/scrape_20251001T042401Z.json
+[2025-10-01 05:24:01,480] INFO scraper: [CRAWL] Depth 2 (14/50): https://support.indeed.com/hc/en-us/sections/360013970032-Technical-Support
+[2025-10-01 05:24:01,480] INFO scraper: [CRAWL] Depth 2 (15/50): https://support.indeed.com/hc/en-us/articles/19753915138445
+[2025-10-01 05:24:01,481] INFO scraper: [CRAWL] Depth 2 (16/50): https://support.indeed.com/hc/en-us/articles/360031204051
+[2025-10-01 05:24:01,482] INFO scraper: [CRAWL] Depth 2 (17/50): https://support.indeed.com/hc/en-us/articles/360058705731
+[2025-10-01 05:24:01,483] INFO scraper: [CRAWL] Depth 2 (18/50): https://support.indeed.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCI1BGFH3EToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCI0cFMRvHjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJjL2hjL2VuLXVzL2FydGljbGVzLzE5NzUzOTE1MTM4NDQ1LU1vYmlsZS1Ccm93c2Vycy1DbGVhcmluZy1DaHJvbWUtYW5kLVNhZmFyaS1DYWNoZS1hbmQtQ29va2llcwY7CFQ6CXJhbmtpBg%3D%3D--161dae859e1f829a4c8a5867d241cf9dd0773f2e
+[2025-10-01 05:24:01,484] INFO scraper: [CRAWL] Depth 2 (19/50): https://support.indeed.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCNMyiNNTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCI0cFMRvHjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJiL2hjL2VuLXVzL2FydGljbGVzLzM2MDAzMTIwNDA1MS1EZXNrdG9wLUJyb3dzZXJzLUNsZWFyaW5nLUNocm9tZS1hbmQtU2FmYXJpLUNhY2hlLWFuZC1Db29raWVzBjsIVDoJcmFua2kH--d556ad334d1c69d323cbd314478b95ab99107064
+[2025-10-01 05:24:01,541] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCI1BGFH3EToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCI0cFMRvHjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJjL2hjL2VuLXVzL2FydGljbGVzLzE5NzUzOTE1MTM4NDQ1LU1vYmlsZS1Ccm93c2Vycy1DbGVhcmluZy1DaHJvbWUtYW5kLVNhZmFyaS1DYWNoZS1hbmQtQ29va2llcwY7CFQ6CXJhbmtpBg%3D%3D--161dae859e1f829a4c8a5867d241cf9dd0773f2e
+[2025-10-01 05:24:01,542] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/19753915138445
+[2025-10-01 05:24:01,544] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/360031204051
+[2025-10-01 05:24:01,545] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/360058705731
+[2025-10-01 05:24:01,546] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/sections/360013970032-Technical-Support
+[2025-10-01 05:24:01,556] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCNMyiNNTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCI0cFMRvHjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJiL2hjL2VuLXVzL2FydGljbGVzLzM2MDAzMTIwNDA1MS1EZXNrdG9wLUJyb3dzZXJzLUNsZWFyaW5nLUNocm9tZS1hbmQtU2FmYXJpLUNhY2hlLWFuZC1Db29raWVzBjsIVDoJcmFua2kH--d556ad334d1c69d323cbd314478b95ab99107064
+[2025-10-01 05:24:04,701] INFO scraper: Saved: data/scrape_20251001T042404Z.json
+[2025-10-01 05:24:04,822] INFO scraper: Saved: data/scrape_20251001T042404Z.json
+[2025-10-01 05:24:04,832] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:24:04,974] INFO scraper: Saved: data/scrape_20251001T042404Z.json
+[2025-10-01 05:24:05,143] INFO scraper: Saved: data/scrape_20251001T042405Z.json
+[2025-10-01 05:24:05,276] INFO scraper: Saved: data/scrape_20251001T042405Z.json
+[2025-10-01 05:24:05,313] INFO scraper: Saved: data/scrape_20251001T042405Z.json
+[2025-10-01 05:24:05,313] INFO scraper: [CRAWL] Depth 2 (20/50): https://support.indeed.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCA04IxgGBDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCI0cFMRvHjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI8L2hjL2VuLXVzL2FydGljbGVzLzQ0MjQyMjEyNzYxNzMtVXBkYXRpbmctYS1XZWItQnJvd3NlcgY7CFQ6CXJhbmtpCA%3D%3D--55bb2b8fdd9b9d3d5829462cd3bec9a4e10e253c
+[2025-10-01 05:24:05,314] INFO scraper: [CRAWL] Depth 2 (21/50): https://support.indeed.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCLgDANRTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCI0cFMRvHjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJGL2hjL2VuLXVzL2FydGljbGVzLzM2MDAzOTA1NjMxMi1DcmVhdGluZy1hbi1BY2NvdW50LW9yLVNpZ25pbmctSW4GOwhUOglyYW5raQk%3D--f69134b9cfa5c39a8b44b0851e5fb954a15ea0e8
+[2025-10-01 05:24:05,315] INFO scraper: [CRAWL] Depth 2 (22/50): https://support.indeed.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCA0DrJQbHToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCI0cFMRvHjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJCL2hjL2VuLXVzL2FydGljbGVzLzMyMDA0Mjk1NjIzNDM3LVZlcmlmeWluZy1Zb3VyLVBob25lLU51bWJlcgY7CFQ6CXJhbmtpCg%3D%3D--b747c90317458734ba1bc3d050919605cb52f35c
+[2025-10-01 05:24:05,315] INFO scraper: [CRAWL] Depth 2 (23/50): https://www.indeed.com/support/contact?from=zdhc&zlang=en&articleId=33465379855501
+[2025-10-01 05:24:05,316] INFO scraper: [CRAWL] Depth 2 (24/50): https://www.indeed.com/legal?zlang=en
+[2025-10-01 05:24:05,368] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCA0DrJQbHToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCI0cFMRvHjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJCL2hjL2VuLXVzL2FydGljbGVzLzMyMDA0Mjk1NjIzNDM3LVZlcmlmeWluZy1Zb3VyLVBob25lLU51bWJlcgY7CFQ6CXJhbmtpCg%3D%3D--b747c90317458734ba1bc3d050919605cb52f35c
+[2025-10-01 05:24:05,369] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCLgDANRTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCI0cFMRvHjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJGL2hjL2VuLXVzL2FydGljbGVzLzM2MDAzOTA1NjMxMi1DcmVhdGluZy1hbi1BY2NvdW50LW9yLVNpZ25pbmctSW4GOwhUOglyYW5raQk%3D--f69134b9cfa5c39a8b44b0851e5fb954a15ea0e8
+[2025-10-01 05:24:05,371] INFO scraper: [PW] goto https://www.indeed.com/support/contact?from=zdhc&zlang=en&articleId=33465379855501
+[2025-10-01 05:24:05,371] INFO scraper: [PW] goto https://www.indeed.com/legal?zlang=en
+[2025-10-01 05:24:05,372] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCA04IxgGBDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCI0cFMRvHjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI8L2hjL2VuLXVzL2FydGljbGVzLzQ0MjQyMjEyNzYxNzMtVXBkYXRpbmctYS1XZWItQnJvd3NlcgY7CFQ6CXJhbmtpCA%3D%3D--55bb2b8fdd9b9d3d5829462cd3bec9a4e10e253c
+[2025-10-01 05:24:05,891] INFO scraper: Saved: data/scrape_20251001T042405Z.json
+[2025-10-01 05:24:05,905] INFO scraper: Saved: data/scrape_20251001T042405Z.json
+[2025-10-01 05:24:08,869] INFO scraper: Saved: data/scrape_20251001T042408Z.json
+[2025-10-01 05:24:08,942] INFO scraper: Saved: data/scrape_20251001T042408Z.json
+[2025-10-01 05:24:09,018] INFO scraper: Saved: data/scrape_20251001T042409Z.json
+[2025-10-01 05:24:09,019] INFO scraper: [CRAWL] Depth 2 (25/50): https://www.indeed.com/legal/ccpa-dns?zlang=en
+[2025-10-01 05:24:09,020] INFO scraper: [CRAWL] Depth 2 (26/50): https://www.indeed.com/support/contact?from=zdhcftr&zlang=en&articleId=33465379855501
+[2025-10-01 05:24:09,020] INFO scraper: [CRAWL] Depth 3 (27/50): https://support.indeed.com/hc/en-us/sections/200771624-Account
+[2025-10-01 05:24:09,021] INFO scraper: [CRAWL] Depth 3 (28/50): https://support.indeed.com/hc/en-us/sections/4418654296333-Profile-Resume
+[2025-10-01 05:24:09,022] INFO scraper: [CRAWL] Depth 3 (29/50): https://support.indeed.com/hc/en-us/sections/200798504-Applying-for-a-Job
+[2025-10-01 05:24:09,022] INFO scraper: [CRAWL] Depth 3 (30/50): https://support.indeed.com/hc/en-us/sections/200771644-Job-Search-Tips
+[2025-10-01 05:24:09,071] INFO scraper: [PW] goto https://www.indeed.com/support/contact?from=zdhcftr&zlang=en&articleId=33465379855501
+[2025-10-01 05:24:09,073] INFO scraper: [PW] goto https://www.indeed.com/legal/ccpa-dns?zlang=en
+[2025-10-01 05:24:09,077] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/sections/4418654296333-Profile-Resume
+[2025-10-01 05:24:09,079] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/sections/200771624-Account
+[2025-10-01 05:24:09,088] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/sections/200798504-Applying-for-a-Job
+[2025-10-01 05:24:09,096] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/sections/200771644-Job-Search-Tips
+[2025-10-01 05:24:09,602] INFO scraper: Saved: data/scrape_20251001T042409Z.json
+[2025-10-01 05:24:09,628] INFO scraper: Saved: data/scrape_20251001T042409Z.json
+[2025-10-01 05:24:11,955] INFO scraper: Saved: data/scrape_20251001T042411Z.json
+[2025-10-01 05:24:12,454] INFO scraper: Saved: data/scrape_20251001T042412Z.json
+[2025-10-01 05:24:12,470] INFO scraper: Saved: data/scrape_20251001T042412Z.json
+[2025-10-01 05:24:13,013] INFO scraper: Saved: data/scrape_20251001T042413Z.json
+[2025-10-01 05:24:13,014] INFO scraper: [CRAWL] Depth 3 (31/50): https://support.indeed.com/hc/en-us/sections/200771634-My-Jobs
+[2025-10-01 05:24:13,014] INFO scraper: [CRAWL] Depth 3 (32/50): https://support.indeed.com/hc/en-us/sections/360002868851-Messages
+[2025-10-01 05:24:13,015] INFO scraper: [CRAWL] Depth 3 (33/50): https://support.indeed.com/hc/en-us/sections/115000838803-About-Indeed
+[2025-10-01 05:24:13,016] INFO scraper: [CRAWL] Depth 3 (34/50): https://support.indeed.com/hc/en-us/sections/360012614292-Company-Pages-Reviews
+[2025-10-01 05:24:13,017] INFO scraper: [CRAWL] Depth 3 (35/50): https://support.indeed.com/hc/en-us/articles/360051197532-Profile-and-Preferences-What-Do-I-Share-With-Employers
+[2025-10-01 05:24:13,099] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/sections/115000838803-About-Indeed
+[2025-10-01 05:24:13,102] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/sections/200771634-My-Jobs
+[2025-10-01 05:24:13,107] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/sections/360002868851-Messages
+[2025-10-01 05:24:13,110] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/sections/360012614292-Company-Pages-Reviews
+[2025-10-01 05:24:13,114] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/360051197532-Profile-and-Preferences-What-Do-I-Share-With-Employers
+[2025-10-01 05:24:15,215] INFO scraper: Saved: data/scrape_20251001T042415Z.json
+[2025-10-01 05:24:15,222] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:24:15,347] INFO scraper: Saved: data/scrape_20251001T042415Z.json
+[2025-10-01 05:24:15,632] INFO scraper: Saved: data/scrape_20251001T042415Z.json
+[2025-10-01 05:24:16,228] INFO scraper: Saved: data/scrape_20251001T042416Z.json
+[2025-10-01 05:24:16,906] INFO scraper: Saved: data/scrape_20251001T042416Z.json
+[2025-10-01 05:24:16,906] INFO scraper: [CRAWL] Depth 3 (36/50): https://support.indeed.com/hc/en-us/articles/27110153886093-What-s-New-on-Indeed
+[2025-10-01 05:24:16,907] INFO scraper: [CRAWL] Depth 3 (37/50): https://support.indeed.com/hc/en-us/articles/29271461896077-Adding-or-Editing-Profile-Preferences
+[2025-10-01 05:24:16,908] INFO scraper: [CRAWL] Depth 3 (38/50): https://support.indeed.com/hc/en-us/articles/39462136433677-Changing-Your-Account-Email-Address-and-Phone-Number
+[2025-10-01 05:24:16,909] INFO scraper: [CRAWL] Depth 3 (39/50): https://support.indeed.com/hc/en-us/articles/360039056312-Creating-an-Account-or-Signing-In
+[2025-10-01 05:24:16,952] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/29271461896077-Adding-or-Editing-Profile-Preferences
+[2025-10-01 05:24:16,953] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/27110153886093-What-s-New-on-Indeed
+[2025-10-01 05:24:16,954] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/360039056312-Creating-an-Account-or-Signing-In
+[2025-10-01 05:24:16,954] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/39462136433677-Changing-Your-Account-Email-Address-and-Phone-Number
+[2025-10-01 05:24:20,925] INFO scraper: Saved: data/scrape_20251001T042420Z.json
+[2025-10-01 05:24:21,105] INFO scraper: Saved: data/scrape_20251001T042421Z.json
+[2025-10-01 05:24:21,132] INFO scraper: Saved: data/scrape_20251001T042421Z.json
+[2025-10-01 05:24:21,296] INFO scraper: Saved: data/scrape_20251001T042421Z.json
+[2025-10-01 05:24:21,297] INFO scraper: [CRAWL] Depth 3 (40/50): https://support.indeed.com/hc/en-us/articles/30132802340621-Email-Issues-Basic-Troubleshooting
+[2025-10-01 05:24:21,297] INFO scraper: [CRAWL] Depth 3 (41/50): https://support.indeed.com/hc/en-us/articles/204288724-Fixing-Hide-My-Email-Signing-In-Applying-and-Getting-Messages
+[2025-10-01 05:24:21,298] INFO scraper: [CRAWL] Depth 3 (42/50): https://support.indeed.com/hc/en-us/articles/204548930-Resetting-or-Changing-a-Password
+[2025-10-01 05:24:21,299] INFO scraper: [CRAWL] Depth 3 (43/50): https://support.indeed.com/hc/en-us/articles/32004295623437-Verifying-Your-Phone-Number
+[2025-10-01 05:24:21,349] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/204548930-Resetting-or-Changing-a-Password
+[2025-10-01 05:24:21,350] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/30132802340621-Email-Issues-Basic-Troubleshooting
+[2025-10-01 05:24:21,351] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/32004295623437-Verifying-Your-Phone-Number
+[2025-10-01 05:24:21,352] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/204288724-Fixing-Hide-My-Email-Signing-In-Applying-and-Getting-Messages
+[2025-10-01 05:24:23,096] INFO scraper: Saved: data/scrape_20251001T042423Z.json
+[2025-10-01 05:24:23,551] INFO scraper: Saved: data/scrape_20251001T042423Z.json
+[2025-10-01 05:24:23,566] INFO scraper: Saved: data/scrape_20251001T042423Z.json
+[2025-10-01 05:24:23,770] INFO scraper: Saved: data/scrape_20251001T042423Z.json
+[2025-10-01 05:24:23,770] INFO scraper: [CRAWL] Depth 3 (44/50): https://support.indeed.com/hc/en-us/articles/32650363302285-Profile-Purpose-Benefits-and-Actions
+[2025-10-01 05:24:23,771] INFO scraper: [CRAWL] Depth 3 (45/50): https://support.indeed.com/hc/en-us/articles/28827071763981-Resume-Options-Menu-Managing-a-Resume
+[2025-10-01 05:24:23,771] INFO scraper: [CRAWL] Depth 3 (46/50): https://support.indeed.com/hc/en-us/articles/27517857907853-Uploading-a-Profile-Photo-Using-an-iPhone
+[2025-10-01 05:24:23,772] INFO scraper: [CRAWL] Depth 3 (47/50): https://support.indeed.com/hc/en-us/articles/11314976176141-FAQs-Creating-Uploading-and-Managing-a-Resume-File
+[2025-10-01 05:24:23,773] INFO scraper: [CRAWL] Depth 3 (48/50): https://support.indeed.com/hc/en-us/articles/4418646538765-What-Are-Indeed-s-Career-Services
+[2025-10-01 05:24:23,820] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/11314976176141-FAQs-Creating-Uploading-and-Managing-a-Resume-File
+[2025-10-01 05:24:23,821] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/27517857907853-Uploading-a-Profile-Photo-Using-an-iPhone
+[2025-10-01 05:24:23,822] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/28827071763981-Resume-Options-Menu-Managing-a-Resume
+[2025-10-01 05:24:23,823] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/32650363302285-Profile-Purpose-Benefits-and-Actions
+[2025-10-01 05:24:23,823] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/4418646538765-What-Are-Indeed-s-Career-Services
+[2025-10-01 05:24:28,000] INFO scraper: Saved: data/scrape_20251001T042427Z.json
+[2025-10-01 05:24:28,022] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:24:28,030] INFO scraper: Saved: data/scrape_20251001T042428Z.json
+[2025-10-01 05:24:28,050] INFO scraper: Saved: data/scrape_20251001T042428Z.json
+[2025-10-01 05:24:28,089] INFO scraper: Saved: data/scrape_20251001T042428Z.json
+[2025-10-01 05:24:28,111] INFO scraper: Saved: data/scrape_20251001T042428Z.json
+[2025-10-01 05:24:28,111] INFO scraper: [CRAWL] Depth 3 (49/50): https://support.indeed.com/hc/en-us/articles/4408783727629-Uploading-a-Resume-File-to-Your-Profile
+[2025-10-01 05:24:28,492] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/4408783727629-Uploading-a-Resume-File-to-Your-Profile
+[2025-10-01 05:24:31,977] INFO scraper: Saved: data/scrape_20251001T042431Z.json
+[2025-10-01 05:24:31,977] INFO scraper: [CRAWL] Depth 3 (50/50): https://support.indeed.com/hc/en-us/articles/32096856897933-Adding-or-Uploading-Cover-Letters
+[2025-10-01 05:24:32,017] INFO scraper: [PW] goto https://support.indeed.com/hc/en-us/articles/32096856897933-Adding-or-Uploading-Cover-Letters
+[2025-10-01 05:24:34,992] INFO scraper: Saved: data/scrape_20251001T042434Z.json
+[2025-10-01 05:24:34,998] INFO scraper: Saved: data/scrape_crawl_20251001T042434Z.json
+[2025-10-01 05:24:34,998] INFO scraper: Crawl complete. Pages: 50 saved: data/scrape_crawl_20251001T042434Z.json
+[2025-10-01 05:24:35,043] INFO scraper: Done.
+[2025-10-01 05:30:55,143] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15', 'device_type': 'desktop', 'accept_language': 'fr-FR,fr,en;q=0.8', 'locale': 'fr-FR', 'timezone': 'UTC', 'viewport': (1440, 900), 'engine': 'playwright', 'headless': True}
+[2025-10-01 05:30:55,146] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 05:30:55,146] INFO scraper: Starting crawl: seeds=1 max_pages=50 max_depth=4 concurrency=6
+[2025-10-01 05:30:55,146] INFO scraper: [CRAWL] Depth 0 (1/50): https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec
+[2025-10-01 05:30:56,087] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 1/4)
+[2025-10-01 05:30:56,738] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:30:58,787] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 2/4)
+[2025-10-01 05:30:59,340] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:31:01,387] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 3/4)
+[2025-10-01 05:31:01,970] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:31:04,019] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 4/4)
+[2025-10-01 05:31:04,561] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:31:04,565] INFO scraper: Saved: data/scrape_20251001T043104Z.json
+[2025-10-01 05:31:04,566] INFO scraper: [CRAWL] Depth 1 (2/50): https://www.indeed.com
+[2025-10-01 05:31:04,566] INFO scraper: [CRAWL] Depth 1 (3/50): https://www.indeed.com/companies
+[2025-10-01 05:31:04,567] INFO scraper: [CRAWL] Depth 1 (4/50): https://www.indeed.com/career/salaries
+[2025-10-01 05:31:04,568] INFO scraper: [CRAWL] Depth 1 (5/50): https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com
+[2025-10-01 05:31:04,568] INFO scraper: [CRAWL] Depth 1 (6/50): https://www.indeed.com/promo/resume
+[2025-10-01 05:31:04,630] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 1/4)
+[2025-10-01 05:31:04,631] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 1/4)
+[2025-10-01 05:31:04,633] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 1/4)
+[2025-10-01 05:31:04,635] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 1/4)
+[2025-10-01 05:31:04,636] INFO scraper: [PW] goto https://www.indeed.com (attempt 1/4)
+[2025-10-01 05:31:05,300] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:31:05,316] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:31:05,317] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:31:05,326] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:31:05,424] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:31:07,361] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 2/4)
+[2025-10-01 05:31:07,373] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 2/4)
+[2025-10-01 05:31:07,374] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 2/4)
+[2025-10-01 05:31:07,389] INFO scraper: [PW] goto https://www.indeed.com (attempt 2/4)
+[2025-10-01 05:31:07,459] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 2/4)
+[2025-10-01 05:31:08,085] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:31:08,098] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:31:08,118] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:31:08,146] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:31:08,211] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:31:10,141] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 3/4)
+[2025-10-01 05:31:10,154] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 3/4)
+[2025-10-01 05:31:10,174] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 3/4)
+[2025-10-01 05:31:10,193] INFO scraper: [PW] goto https://www.indeed.com (attempt 3/4)
+[2025-10-01 05:31:10,246] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 3/4)
+[2025-10-01 05:31:10,979] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:31:10,996] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:31:10,999] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:31:11,002] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:31:11,114] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:31:13,061] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 4/4)
+[2025-10-01 05:31:13,063] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 4/4)
+[2025-10-01 05:31:13,065] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 4/4)
+[2025-10-01 05:31:13,066] INFO scraper: [PW] goto https://www.indeed.com (attempt 4/4)
+[2025-10-01 05:31:13,151] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 4/4)
+[2025-10-01 05:31:13,766] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:31:13,775] INFO scraper: Saved: data/scrape_20251001T043113Z.json
+[2025-10-01 05:31:13,780] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:31:13,788] INFO scraper: Saved: data/scrape_20251001T043113Z.json
+[2025-10-01 05:31:13,796] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:31:13,801] INFO scraper: Saved: data/scrape_20251001T043113Z.json
+[2025-10-01 05:31:13,815] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:31:13,823] INFO scraper: Saved: data/scrape_20251001T043113Z.json
+[2025-10-01 05:31:13,840] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:31:13,934] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:31:13,938] INFO scraper: Saved: data/scrape_20251001T043113Z.json
+[2025-10-01 05:31:13,939] INFO scraper: [CRAWL] Depth 1 (7/50): https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US
+[2025-10-01 05:31:13,968] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US (attempt 1/4)
+[2025-10-01 05:31:21,739] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:31:23,799] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US (attempt 2/4)
+[2025-10-01 05:31:24,312] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:31:26,363] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US (attempt 3/4)
+[2025-10-01 05:32:05,216] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0', 'device_type': 'desktop', 'accept_language': 'de-DE,de,en;q=0.8', 'locale': 'de-DE', 'timezone': 'Europe/Berlin', 'viewport': (1600, 900), 'engine': 'playwright', 'headless': True}
+[2025-10-01 05:32:05,219] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 05:32:05,219] INFO scraper: Starting crawl: seeds=1 max_pages=5000 max_depth=4 concurrency=6
+[2025-10-01 05:32:05,220] INFO scraper: [CRAWL] Depth 0 (1/5000): https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec
+[2025-10-01 05:32:05,976] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 1/10)
+[2025-10-01 05:32:06,616] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:32:09,663] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 2/10)
+[2025-10-01 05:32:10,125] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:32:13,172] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 3/10)
+[2025-10-01 05:32:13,673] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:32:16,738] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 4/10)
+[2025-10-01 05:32:17,204] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:32:20,259] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 5/10)
+[2025-10-01 05:32:20,722] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 5
+[2025-10-01 05:32:23,791] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 6/10)
+[2025-10-01 05:32:24,359] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 6
+[2025-10-01 05:32:27,405] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 7/10)
+[2025-10-01 05:32:27,846] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 7
+[2025-10-01 05:32:30,911] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 8/10)
+[2025-10-01 05:32:31,467] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 8
+[2025-10-01 05:32:34,522] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 9/10)
+[2025-10-01 05:32:35,050] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 9
+[2025-10-01 05:32:38,137] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 10/10)
+[2025-10-01 05:32:38,709] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 10
+[2025-10-01 05:32:38,714] INFO scraper: Saved: data/scrape_20251001T043238Z.json
+[2025-10-01 05:32:38,715] INFO scraper: [CRAWL] Depth 1 (2/5000): https://www.indeed.com
+[2025-10-01 05:32:38,715] INFO scraper: [CRAWL] Depth 1 (3/5000): https://www.indeed.com/companies
+[2025-10-01 05:32:38,716] INFO scraper: [CRAWL] Depth 1 (4/5000): https://www.indeed.com/career/salaries
+[2025-10-01 05:32:38,717] INFO scraper: [CRAWL] Depth 1 (5/5000): https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com
+[2025-10-01 05:32:38,718] INFO scraper: [CRAWL] Depth 1 (6/5000): https://www.indeed.com/promo/resume
+[2025-10-01 05:32:38,779] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 1/10)
+[2025-10-01 05:32:38,781] INFO scraper: [PW] goto https://www.indeed.com (attempt 1/10)
+[2025-10-01 05:32:38,783] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 1/10)
+[2025-10-01 05:32:38,786] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 1/10)
+[2025-10-01 05:32:38,791] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 1/10)
+[2025-10-01 05:32:39,398] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:32:39,424] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:32:39,466] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:32:39,507] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:32:39,622] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:32:42,451] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 2/10)
+[2025-10-01 05:32:42,473] INFO scraper: [PW] goto https://www.indeed.com (attempt 2/10)
+[2025-10-01 05:32:42,506] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 2/10)
+[2025-10-01 05:32:42,542] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 2/10)
+[2025-10-01 05:32:42,664] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 2/10)
+[2025-10-01 05:32:43,151] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:32:43,162] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:32:43,177] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:32:43,179] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:32:43,506] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 2
+[2025-10-01 05:32:46,203] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 3/10)
+[2025-10-01 05:32:46,207] INFO scraper: [PW] goto https://www.indeed.com (attempt 3/10)
+[2025-10-01 05:32:46,229] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 3/10)
+[2025-10-01 05:32:46,230] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 3/10)
+[2025-10-01 05:32:46,566] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 3/10)
+[2025-10-01 05:32:46,758] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:32:46,812] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:32:46,825] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:32:46,840] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:32:47,424] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:32:49,816] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 4/10)
+[2025-10-01 05:32:49,863] INFO scraper: [PW] goto https://www.indeed.com (attempt 4/10)
+[2025-10-01 05:32:49,869] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 4/10)
+[2025-10-01 05:32:49,892] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 4/10)
+[2025-10-01 05:32:50,474] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 4/10)
+[2025-10-01 05:32:50,569] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:32:50,578] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:32:50,584] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:32:50,590] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:32:51,208] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:32:53,625] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 5/10)
+[2025-10-01 05:32:53,627] INFO scraper: [PW] goto https://www.indeed.com (attempt 5/10)
+[2025-10-01 05:32:53,642] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 5/10)
+[2025-10-01 05:32:53,646] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 5/10)
+[2025-10-01 05:32:54,190] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 5
+[2025-10-01 05:32:54,265] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 5/10)
+[2025-10-01 05:32:54,303] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 5
+[2025-10-01 05:32:54,315] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 5
+[2025-10-01 05:32:54,362] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 5
+[2025-10-01 05:32:55,065] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 5
+[2025-10-01 05:32:57,241] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 6/10)
+[2025-10-01 05:32:57,352] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 6/10)
+[2025-10-01 05:32:57,378] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 6/10)
+[2025-10-01 05:32:57,408] INFO scraper: [PW] goto https://www.indeed.com (attempt 6/10)
+[2025-10-01 05:32:58,012] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 6
+[2025-10-01 05:32:58,065] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 6
+[2025-10-01 05:32:58,082] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 6
+[2025-10-01 05:32:58,089] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 6
+[2025-10-01 05:32:58,107] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 6/10)
+[2025-10-01 05:32:58,853] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 6
+[2025-10-01 05:33:01,066] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 7/10)
+[2025-10-01 05:33:01,114] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 7/10)
+[2025-10-01 05:33:01,143] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 7/10)
+[2025-10-01 05:33:01,144] INFO scraper: [PW] goto https://www.indeed.com (attempt 7/10)
+[2025-10-01 05:33:01,808] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 7
+[2025-10-01 05:33:01,824] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 7
+[2025-10-01 05:33:01,837] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 7
+[2025-10-01 05:33:01,891] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 7/10)
+[2025-10-01 05:33:01,903] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 7
+[2025-10-01 05:33:02,639] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 7
+[2025-10-01 05:33:04,862] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 8/10)
+[2025-10-01 05:33:04,871] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 8/10)
+[2025-10-01 05:33:04,896] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 8/10)
+[2025-10-01 05:33:04,941] INFO scraper: [PW] goto https://www.indeed.com (attempt 8/10)
+[2025-10-01 05:33:05,431] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 8
+[2025-10-01 05:33:05,530] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 8
+[2025-10-01 05:33:05,541] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 8
+[2025-10-01 05:33:05,544] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 8
+[2025-10-01 05:33:05,678] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 8/10)
+[2025-10-01 05:33:06,283] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 8
+[2025-10-01 05:33:08,509] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 9/10)
+[2025-10-01 05:33:08,585] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 9/10)
+[2025-10-01 05:33:08,590] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 9/10)
+[2025-10-01 05:33:08,594] INFO scraper: [PW] goto https://www.indeed.com (attempt 9/10)
+[2025-10-01 05:33:09,130] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 9
+[2025-10-01 05:33:09,140] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 9
+[2025-10-01 05:33:09,192] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 9
+[2025-10-01 05:33:09,301] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 9
+[2025-10-01 05:33:09,318] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 9/10)
+[2025-10-01 05:33:10,043] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 9
+[2025-10-01 05:33:12,178] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 10/10)
+[2025-10-01 05:33:12,179] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 10/10)
+[2025-10-01 05:33:12,229] INFO scraper: [PW] goto https://www.indeed.com (attempt 10/10)
+[2025-10-01 05:33:12,338] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 10/10)
+[2025-10-01 05:33:13,089] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 10/10)
+[2025-10-01 05:33:22,816] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 10
+[2025-10-01 05:33:22,817] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 10
+[2025-10-01 05:33:22,824] INFO scraper: Saved: data/scrape_20251001T043322Z.json
+[2025-10-01 05:33:22,826] INFO scraper: Saved: data/scrape_20251001T043322Z.json
+[2025-10-01 05:33:27,185] WARNING scraper: [PW] error attempt 10: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.indeed.com/career/salaries", waiting until "load"
+
+[2025-10-01 05:33:27,193] INFO scraper: Saved: data/scrape_20251001T043327Z.json
+[2025-10-01 05:33:27,342] WARNING scraper: [PW] error attempt 10: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://www.indeed.com/promo/resume", waiting until "load"
+
+[2025-10-01 05:33:27,353] INFO scraper: Saved: data/scrape_20251001T043327Z.json
+[2025-10-01 05:33:27,364] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:33:28,092] WARNING scraper: [PW] error attempt 10: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com", waiting until "load"
+
+[2025-10-01 05:33:28,102] INFO scraper: Saved: data/scrape_20251001T043328Z.json
+[2025-10-01 05:33:28,102] INFO scraper: [CRAWL] Depth 1 (7/5000): https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US
+[2025-10-01 05:33:28,157] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US (attempt 1/10)
+[2025-10-01 05:33:28,581] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 1
+[2025-10-01 05:33:31,623] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US (attempt 2/10)
+[2025-10-01 05:33:39,532] WARNING scraper: [PW] error attempt 2: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US
+Call log:
+  - navigating to "https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US", waiting until "load"
+
+[2025-10-01 05:33:42,600] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US (attempt 3/10)
+[2025-10-01 05:33:43,245] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 3
+[2025-10-01 05:33:46,292] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US (attempt 4/10)
+[2025-10-01 05:33:46,985] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 4
+[2025-10-01 05:33:50,050] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US (attempt 5/10)
+[2025-10-01 05:33:50,750] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 5
+[2025-10-01 05:33:53,801] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US (attempt 6/10)
+[2025-10-01 05:33:54,586] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 6
+[2025-10-01 05:33:57,670] INFO scraper: [PW] goto https://www.indeed.com/hire?co=US&hl=en&ikw=gnav-header-hire&isid=employerlink-US (attempt 7/10)
+[2025-10-01 05:33:58,213] WARNING scraper: [ANTIBOT] Detected possible block (pattern match) attempt 7
+[2025-10-01 05:38:07,132] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15', 'device_type': 'desktop', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'Europe/Paris', 'viewport': (1512, 982), 'engine': 'playwright', 'headless': True}
+[2025-10-01 05:38:07,135] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 05:38:07,135] INFO scraper: Starting crawl: seeds=1 max_pages=5000 max_depth=4 concurrency=6
+[2025-10-01 05:38:07,135] INFO scraper: [CRAWL] Depth 0 (1/5000): https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec
+[2025-10-01 05:38:08,133] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 1/5)
+[2025-10-01 05:38:08,900] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:38:11,909] INFO scraper: [ANTIBOT] Relaunching browser for attempt 2
+[2025-10-01 05:38:12,076] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 2/5)
+[2025-10-01 05:38:12,793] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 2
+[2025-10-01 05:38:15,799] INFO scraper: [ANTIBOT] Relaunching browser for attempt 3
+[2025-10-01 05:38:15,964] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 3/5)
+[2025-10-01 05:38:16,588] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 3
+[2025-10-01 05:38:19,593] INFO scraper: [ANTIBOT] Relaunching browser for attempt 4
+[2025-10-01 05:38:19,785] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 4/5)
+[2025-10-01 05:38:20,440] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 4
+[2025-10-01 05:38:23,444] INFO scraper: [ANTIBOT] Relaunching browser for attempt 5
+[2025-10-01 05:38:23,611] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 5/5)
+[2025-10-01 05:38:24,404] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 5
+[2025-10-01 05:38:24,410] INFO scraper: Saved: data/scrape_20251001T043824Z.json
+[2025-10-01 05:38:24,410] INFO scraper: [CRAWL] Depth 1 (2/5000): https://www.indeed.com
+[2025-10-01 05:38:24,410] INFO scraper: [CRAWL] Depth 1 (3/5000): https://www.indeed.com/companies
+[2025-10-01 05:38:24,411] INFO scraper: [CRAWL] Depth 1 (4/5000): https://www.indeed.com/career/salaries
+[2025-10-01 05:38:24,412] INFO scraper: [CRAWL] Depth 1 (5/5000): https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com
+[2025-10-01 05:38:24,413] INFO scraper: [CRAWL] Depth 1 (6/5000): https://www.indeed.com/promo/resume
+[2025-10-01 05:38:24,465] INFO scraper: [PW] goto https://www.indeed.com (attempt 1/5)
+[2025-10-01 05:38:24,466] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 1/5)
+[2025-10-01 05:38:24,468] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 1/5)
+[2025-10-01 05:38:24,469] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 1/5)
+[2025-10-01 05:38:24,470] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 1/5)
+[2025-10-01 05:38:25,220] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:38:25,265] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:38:25,310] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:38:25,351] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:38:25,484] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:38:28,228] INFO scraper: [ANTIBOT] Relaunching browser for attempt 2
+[2025-10-01 05:38:28,271] INFO scraper: [ANTIBOT] Relaunching browser for attempt 2
+[2025-10-01 05:38:28,315] INFO scraper: [ANTIBOT] Relaunching browser for attempt 2
+[2025-10-01 05:38:28,356] INFO scraper: [ANTIBOT] Relaunching browser for attempt 2
+[2025-10-01 05:38:28,489] INFO scraper: [ANTIBOT] Relaunching browser for attempt 2
+[2025-10-01 05:38:28,496] INFO scraper: [PW] goto https://www.indeed.com (attempt 2/5)
+[2025-10-01 05:38:28,500] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 2/5)
+[2025-10-01 05:38:28,503] WARNING scraper: [CRAWL] Error https://www.indeed.com/promo/resume: BrowserContext.new_page: Target page, context or browser has been closed
+[2025-10-01 05:38:28,616] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 2/5)
+[2025-10-01 05:38:28,692] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 2/5)
+[2025-10-01 05:38:29,476] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 2
+[2025-10-01 05:38:29,509] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 2
+[2025-10-01 05:38:29,540] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 2
+[2025-10-01 05:38:29,663] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 2
+[2025-10-01 05:38:53,332] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0', 'device_type': 'desktop', 'accept_language': 'de-DE,de,en;q=0.8', 'locale': 'de-DE', 'timezone': 'Europe/Berlin', 'viewport': (1920, 1080), 'engine': 'playwright', 'headless': True}
+[2025-10-01 05:38:53,336] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 05:38:53,336] INFO scraper: Starting crawl: seeds=1 max_pages=5000 max_depth=4 concurrency=6
+[2025-10-01 05:38:53,336] INFO scraper: [CRAWL] Depth 0 (1/5000): https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec
+[2025-10-01 05:38:54,071] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 1/10)
+[2025-10-01 05:38:54,749] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:38:57,756] INFO scraper: [ANTIBOT] Relaunching browser for attempt 2
+[2025-10-01 05:38:57,932] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 2/10)
+[2025-10-01 05:38:58,626] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 2
+[2025-10-01 05:39:01,631] INFO scraper: [ANTIBOT] Relaunching browser for attempt 3
+[2025-10-01 05:39:01,798] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 3/10)
+[2025-10-01 05:39:04,014] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 3
+[2025-10-01 05:39:07,019] INFO scraper: [ANTIBOT] Relaunching browser for attempt 4
+[2025-10-01 05:39:07,195] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 4/10)
+[2025-10-01 05:39:07,945] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 4
+[2025-10-01 05:39:10,958] INFO scraper: [ANTIBOT] Relaunching browser for attempt 5
+[2025-10-01 05:39:11,171] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 5/10)
+[2025-10-01 05:39:11,907] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 5
+[2025-10-01 05:39:14,913] INFO scraper: [ANTIBOT] Relaunching browser for attempt 6
+[2025-10-01 05:39:15,082] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 6/10)
+[2025-10-01 05:39:15,768] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 6
+[2025-10-01 05:39:18,773] INFO scraper: [ANTIBOT] Relaunching browser for attempt 7
+[2025-10-01 05:39:18,938] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 7/10)
+[2025-10-01 05:39:19,546] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 7
+[2025-10-01 05:39:22,550] INFO scraper: [ANTIBOT] Relaunching browser for attempt 8
+[2025-10-01 05:39:22,723] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 8/10)
+[2025-10-01 05:39:23,458] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 8
+[2025-10-01 05:39:26,462] INFO scraper: [ANTIBOT] Relaunching browser for attempt 9
+[2025-10-01 05:39:26,626] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 9/10)
+[2025-10-01 05:39:27,228] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 9
+[2025-10-01 05:39:30,234] INFO scraper: [ANTIBOT] Relaunching browser for attempt 10
+[2025-10-01 05:39:30,403] INFO scraper: [PW] goto https://uk.indeed.com/jobs?q=chef&l=aberdeen&from=searchOnHP&vjk=d33654139e0663ec (attempt 10/10)
+[2025-10-01 05:39:31,093] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 10
+[2025-10-01 05:39:31,098] INFO scraper: Saved: data/scrape_20251001T043931Z.json
+[2025-10-01 05:39:31,099] INFO scraper: [CRAWL] Depth 1 (2/5000): https://www.indeed.com
+[2025-10-01 05:39:31,099] INFO scraper: [CRAWL] Depth 1 (3/5000): https://www.indeed.com/companies
+[2025-10-01 05:39:31,100] INFO scraper: [CRAWL] Depth 1 (4/5000): https://www.indeed.com/career/salaries
+[2025-10-01 05:39:31,101] INFO scraper: [CRAWL] Depth 1 (5/5000): https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com
+[2025-10-01 05:39:31,101] INFO scraper: [CRAWL] Depth 1 (6/5000): https://www.indeed.com/promo/resume
+[2025-10-01 05:39:31,156] INFO scraper: [PW] goto https://www.indeed.com/career/salaries (attempt 1/10)
+[2025-10-01 05:39:31,158] INFO scraper: [PW] goto https://secure.indeed.com/account/login?hl=en_US&co=US&continue=https%3A%2F%2Fwww.indeed.com (attempt 1/10)
+[2025-10-01 05:39:31,161] INFO scraper: [PW] goto https://www.indeed.com/promo/resume (attempt 1/10)
+[2025-10-01 05:39:31,162] INFO scraper: [PW] goto https://www.indeed.com (attempt 1/10)
+[2025-10-01 05:39:31,163] INFO scraper: [PW] goto https://www.indeed.com/companies (attempt 1/10)
+[2025-10-01 05:39:31,894] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:39:31,916] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:39:31,974] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:39:31,990] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
+[2025-10-01 05:39:32,090] WARNING scraper: [ANTIBOT] Block heuristic matched attempt 1
