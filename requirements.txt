@@ -1,0 +1,6 @@
+playwright==1.48.0
+selenium==4.24.0
+stem==1.8.2
+# Optional: for future testing
+pytest==8.3.2
+
