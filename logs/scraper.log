@@ -1,0 +1,538 @@
+[2025-10-01 04:40:54,631] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36', 'device_type': 'desktop', 'accept_language': 'fr-FR,fr,en;q=0.8', 'locale': 'fr-FR', 'timezone': 'UTC', 'viewport': (2560, 1440), 'engine': 'playwright', 'headless': True}
+[2025-10-01 04:40:54,634] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 04:40:54,635] INFO scraper: Processing 1/1: https://httpbin.org/ip
+[2025-10-01 04:40:58,461] INFO scraper: [PW] goto https://httpbin.org/ip
+[2025-10-01 04:40:59,944] INFO scraper: Saved: data/scrape_20251001T034059Z.json
+[2025-10-01 04:40:59,944] INFO scraper: Success https://httpbin.org/ip (attempt 1) saved data/scrape_20251001T034059Z.json
+[2025-10-01 04:41:00,497] INFO scraper: Done.
+[2025-10-01 04:42:37,125] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1', 'device_type': 'mobile', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'UTC', 'viewport': (414, 896), 'engine': 'playwright', 'headless': True}
+[2025-10-01 04:42:37,128] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 04:42:37,128] INFO scraper: Processing 1/1: http://books.toscrape.com/
+[2025-10-01 04:42:38,922] WARNING scraper: Error scraping http://books.toscrape.com/ attempt 1: Browser.new_context: options.isMobile is not supported in Firefox
+[2025-10-01 04:42:38,922] ERROR scraper: Failed http://books.toscrape.com/ after 1 attempts: Browser.new_context: options.isMobile is not supported in Firefox
+[2025-10-01 04:42:39,508] INFO scraper: Done.
+[2025-10-01 04:42:50,167] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1', 'device_type': 'mobile', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'America/Los_Angeles', 'viewport': (390, 844), 'engine': 'playwright', 'headless': True}
+[2025-10-01 04:42:50,169] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 04:42:50,169] INFO scraper: Processing 1/1: http://books.toscrape.com/
+[2025-10-01 04:42:51,138] WARNING scraper: Error scraping http://books.toscrape.com/ attempt 1: Browser.new_context: options.isMobile is not supported in Firefox
+[2025-10-01 04:42:51,139] ERROR scraper: Failed http://books.toscrape.com/ after 1 attempts: Browser.new_context: options.isMobile is not supported in Firefox
+[2025-10-01 04:42:51,686] INFO scraper: Done.
+[2025-10-01 04:42:54,238] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0', 'device_type': 'desktop', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'Europe/Berlin', 'viewport': (1680, 1050), 'engine': 'playwright', 'headless': True}
+[2025-10-01 04:42:54,240] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 04:42:54,240] INFO scraper: Processing 1/1: http://books.toscrape.com/
+[2025-10-01 04:42:55,838] INFO scraper: [PW] goto http://books.toscrape.com/
+[2025-10-01 04:43:09,151] INFO scraper: Saved: data/scrape_20251001T034309Z.json
+[2025-10-01 04:43:09,152] INFO scraper: Success http://books.toscrape.com/ (attempt 1) saved data/scrape_20251001T034309Z.json
+[2025-10-01 04:43:09,475] INFO scraper: Done.
+[2025-10-01 04:54:14,312] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36', 'device_type': 'desktop', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'UTC', 'viewport': (1536, 864), 'engine': 'playwright', 'headless': True}
+[2025-10-01 04:54:14,315] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 04:54:14,315] INFO scraper: Starting crawl: seeds=1 max_pages=500 max_depth=3 concurrency=8
+[2025-10-01 04:54:14,315] INFO scraper: [CRAWL] Depth 0 (1/500): https://example.com
+[2025-10-01 04:54:16,859] INFO scraper: [PW] goto https://example.com
+[2025-10-01 04:54:17,933] INFO scraper: Saved: data/scrape_20251001T035417Z.json
+[2025-10-01 04:54:17,934] INFO scraper: Saved: data/scrape_crawl_20251001T035417Z.json
+[2025-10-01 04:54:17,934] INFO scraper: Crawl complete. Pages: 1 saved: data/scrape_crawl_20251001T035417Z.json
+[2025-10-01 04:54:18,283] INFO scraper: Done.
+[2025-10-01 04:56:16,640] ERROR scraper: No URLs provided. Use positional URLs or --url-file.
+[2025-10-01 04:56:52,401] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15', 'device_type': 'desktop', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'UTC', 'viewport': (1280, 800), 'engine': 'playwright', 'headless': True}
+[2025-10-01 04:56:52,404] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 04:56:52,404] INFO scraper: Starting crawl: seeds=1 max_pages=300 max_depth=2 concurrency=8
+[2025-10-01 04:56:52,405] INFO scraper: Saved: data/scrape_crawl_20251001T035652Z.json
+[2025-10-01 04:56:52,405] INFO scraper: Crawl complete. Pages: 0 saved: data/scrape_crawl_20251001T035652Z.json
+[2025-10-01 04:56:52,405] INFO scraper: Done.
+[2025-10-01 04:57:20,706] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1', 'device_type': 'mobile', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'UTC', 'viewport': (375, 812), 'engine': 'playwright', 'headless': True}
+[2025-10-01 04:57:20,709] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 04:57:20,710] INFO scraper: Starting crawl: seeds=1 max_pages=300 max_depth=2 concurrency=8
+[2025-10-01 04:57:20,710] INFO scraper: [CRAWL] Depth 0 (1/300): https:\\example.com
+[2025-10-01 04:57:22,627] WARNING scraper: [CRAWL] Error https:\\example.com: Browser.new_context: options.isMobile is not supported in Firefox
+[2025-10-01 04:57:22,629] INFO scraper: Saved: data/scrape_crawl_20251001T035722Z.json
+[2025-10-01 04:57:22,629] INFO scraper: Crawl complete. Pages: 0 saved: data/scrape_crawl_20251001T035722Z.json
+[2025-10-01 04:57:23,212] INFO scraper: Done.
+[2025-10-01 04:59:16,989] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0', 'device_type': 'desktop', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'UTC', 'viewport': (1680, 1050), 'engine': 'playwright', 'headless': True}
+[2025-10-01 04:59:16,992] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 04:59:16,992] INFO scraper: Starting crawl: seeds=1 max_pages=300 max_depth=2 concurrency=8
+[2025-10-01 04:59:16,992] INFO scraper: [CRAWL] Depth 0 (1/300): https://example.com
+[2025-10-01 04:59:19,628] INFO scraper: [PW] goto https://example.com
+[2025-10-01 04:59:20,539] INFO scraper: Saved: data/scrape_20251001T035920Z.json
+[2025-10-01 04:59:20,539] INFO scraper: Saved: data/scrape_crawl_20251001T035920Z.json
+[2025-10-01 04:59:20,539] INFO scraper: Crawl complete. Pages: 1 saved: data/scrape_crawl_20251001T035920Z.json
+[2025-10-01 04:59:20,883] INFO scraper: Done.
+[2025-10-01 05:00:11,357] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1', 'device_type': 'mobile', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'UTC', 'viewport': (375, 812), 'engine': 'playwright', 'headless': True}
+[2025-10-01 05:00:11,361] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 05:00:11,361] INFO scraper: Starting crawl: seeds=1 max_pages=300 max_depth=2 concurrency=8
+[2025-10-01 05:00:11,361] INFO scraper: [CRAWL] Depth 0 (1/300): https://example.com
+[2025-10-01 05:00:12,513] WARNING scraper: [CRAWL] Error https://example.com: Browser.new_context: options.isMobile is not supported in Firefox
+[2025-10-01 05:00:12,514] INFO scraper: Saved: data/scrape_crawl_20251001T040012Z.json
+[2025-10-01 05:00:12,514] INFO scraper: Crawl complete. Pages: 0 saved: data/scrape_crawl_20251001T040012Z.json
+[2025-10-01 05:00:13,067] INFO scraper: Done.
+[2025-10-01 05:01:33,940] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0', 'device_type': 'desktop', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'UTC', 'viewport': (1366, 768), 'engine': 'playwright', 'headless': True}
+[2025-10-01 05:01:33,944] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 05:01:33,944] INFO scraper: Starting crawl: seeds=1 max_pages=50 max_depth=2 concurrency=6
+[2025-10-01 05:01:33,944] INFO scraper: [CRAWL] Depth 0 (1/50): https://example.com
+[2025-10-01 05:01:34,227] WARNING scraper: [CRAWL] Error https://example.com: BrowserType.launch: Executable doesn't exist at /Users/raincor/Library/Caches/ms-playwright/chromium_headless_shell-1187/chrome-mac/headless_shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[2025-10-01 05:01:34,227] INFO scraper: Saved: data/scrape_crawl_20251001T040134Z.json
+[2025-10-01 05:01:34,227] INFO scraper: Crawl complete. Pages: 0 saved: data/scrape_crawl_20251001T040134Z.json
+[2025-10-01 05:01:34,230] INFO scraper: Done.
+[2025-10-01 05:02:01,067] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1', 'device_type': 'mobile', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'UTC', 'viewport': (375, 812), 'engine': 'playwright', 'headless': True}
+[2025-10-01 05:02:01,070] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 05:02:01,070] INFO scraper: Starting crawl: seeds=1 max_pages=50 max_depth=2 concurrency=6
+[2025-10-01 05:02:01,070] INFO scraper: [CRAWL] Depth 0 (1/50): https://example.com
+[2025-10-01 05:02:03,348] INFO scraper: [PW] goto https://example.com
+[2025-10-01 05:02:04,206] INFO scraper: Saved: data/scrape_20251001T040204Z.json
+[2025-10-01 05:02:04,206] INFO scraper: [CRAWL] Depth 1 (2/50): https://www.iana.org/domains/example
+[2025-10-01 05:02:04,237] INFO scraper: [PW] goto https://www.iana.org/domains/example
+[2025-10-01 05:02:07,967] INFO scraper: Saved: data/scrape_20251001T040207Z.json
+[2025-10-01 05:02:07,967] INFO scraper: [CRAWL] Depth 2 (3/50): https://www.iana.org
+[2025-10-01 05:02:07,968] INFO scraper: [CRAWL] Depth 2 (4/50): https://www.iana.org/domains
+[2025-10-01 05:02:07,969] INFO scraper: [CRAWL] Depth 2 (5/50): https://www.iana.org/protocols
+[2025-10-01 05:02:07,969] INFO scraper: [CRAWL] Depth 2 (6/50): https://www.iana.org/numbers
+[2025-10-01 05:02:07,970] INFO scraper: [CRAWL] Depth 2 (7/50): https://www.iana.org/about
+[2025-10-01 05:02:07,970] INFO scraper: [CRAWL] Depth 2 (8/50): https://www.iana.org/go/rfc2606
+[2025-10-01 05:02:08,018] INFO scraper: [PW] goto https://www.iana.org
+[2025-10-01 05:02:08,021] INFO scraper: [PW] goto https://www.iana.org/numbers
+[2025-10-01 05:02:08,024] INFO scraper: [PW] goto https://www.iana.org/about
+[2025-10-01 05:02:08,026] INFO scraper: [PW] goto https://www.iana.org/domains
+[2025-10-01 05:02:08,035] INFO scraper: [PW] goto https://www.iana.org/protocols
+[2025-10-01 05:02:08,038] INFO scraper: [PW] goto https://www.iana.org/go/rfc2606
+[2025-10-01 05:02:09,713] INFO scraper: Saved: data/scrape_20251001T040209Z.json
+[2025-10-01 05:02:16,977] INFO scraper: Saved: data/scrape_20251001T040216Z.json
+[2025-10-01 05:02:17,028] INFO scraper: Saved: data/scrape_20251001T040217Z.json
+[2025-10-01 05:02:17,037] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:02:17,146] INFO scraper: Saved: data/scrape_20251001T040217Z.json
+[2025-10-01 05:02:17,247] INFO scraper: Saved: data/scrape_20251001T040217Z.json
+[2025-10-01 05:02:38,767] INFO scraper: Saved: data/scrape_20251001T040238Z.json
+[2025-10-01 05:02:38,767] INFO scraper: [CRAWL] Depth 2 (9/50): https://www.iana.org/go/rfc6761
+[2025-10-01 05:02:38,768] INFO scraper: [CRAWL] Depth 2 (10/50): https://www.iana.org/domains/reserved
+[2025-10-01 05:02:38,768] INFO scraper: [CRAWL] Depth 2 (11/50): https://www.iana.org/domains/root
+[2025-10-01 05:02:38,769] INFO scraper: [CRAWL] Depth 2 (12/50): https://www.iana.org/domains/int
+[2025-10-01 05:02:38,770] INFO scraper: [CRAWL] Depth 2 (13/50): https://www.iana.org/domains/arpa
+[2025-10-01 05:02:38,826] INFO scraper: [PW] goto https://www.iana.org/go/rfc6761
+[2025-10-01 05:02:38,827] INFO scraper: [PW] goto https://www.iana.org/domains/root
+[2025-10-01 05:02:38,829] INFO scraper: [PW] goto https://www.iana.org/domains/arpa
+[2025-10-01 05:02:38,830] INFO scraper: [PW] goto https://www.iana.org/domains/int
+[2025-10-01 05:02:38,831] INFO scraper: [PW] goto https://www.iana.org/domains/reserved
+[2025-10-01 05:02:40,421] INFO scraper: Saved: data/scrape_20251001T040240Z.json
+[2025-10-01 05:02:45,015] INFO scraper: Saved: data/scrape_20251001T040245Z.json
+[2025-10-01 05:02:45,025] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:02:45,235] INFO scraper: Saved: data/scrape_20251001T040245Z.json
+[2025-10-01 05:02:45,245] INFO scraper: Saved: data/scrape_20251001T040245Z.json
+[2025-10-01 05:02:45,431] INFO scraper: Saved: data/scrape_20251001T040245Z.json
+[2025-10-01 05:02:45,431] INFO scraper: [CRAWL] Depth 2 (14/50): https://www.iana.org/domains/idn-tables
+[2025-10-01 05:02:45,431] INFO scraper: [CRAWL] Depth 2 (15/50): https://www.iana.org/abuse
+[2025-10-01 05:02:45,432] INFO scraper: [CRAWL] Depth 2 (16/50): https://www.iana.org/time-zones
+[2025-10-01 05:02:45,470] INFO scraper: [PW] goto https://www.iana.org/abuse
+[2025-10-01 05:02:45,471] INFO scraper: [PW] goto https://www.iana.org/domains/idn-tables
+[2025-10-01 05:02:45,473] INFO scraper: [PW] goto https://www.iana.org/time-zones
+[2025-10-01 05:02:48,869] INFO scraper: Saved: data/scrape_20251001T040248Z.json
+[2025-10-01 05:02:48,897] INFO scraper: Saved: data/scrape_20251001T040248Z.json
+[2025-10-01 05:03:33,281] INFO scraper: Saved: data/scrape_20251001T040333Z.json
+[2025-10-01 05:03:33,288] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:03:33,295] INFO scraper: [CRAWL] Depth 2 (17/50): https://www.iana.org/news
+[2025-10-01 05:03:33,296] INFO scraper: [CRAWL] Depth 2 (18/50): https://www.iana.org/performance
+[2025-10-01 05:03:33,296] INFO scraper: [CRAWL] Depth 2 (19/50): https://www.iana.org/about/excellence
+[2025-10-01 05:03:33,298] INFO scraper: [CRAWL] Depth 2 (20/50): https://www.iana.org/archive
+[2025-10-01 05:03:33,299] INFO scraper: [CRAWL] Depth 2 (21/50): https://www.iana.org/contact
+[2025-10-01 05:03:33,352] INFO scraper: [PW] goto https://www.iana.org/archive
+[2025-10-01 05:03:33,354] INFO scraper: [PW] goto https://www.iana.org/about/excellence
+[2025-10-01 05:03:33,357] INFO scraper: [PW] goto https://www.iana.org/contact
+[2025-10-01 05:03:33,358] INFO scraper: [PW] goto https://www.iana.org/news
+[2025-10-01 05:03:33,359] INFO scraper: [PW] goto https://www.iana.org/performance
+[2025-10-01 05:03:38,393] INFO scraper: Saved: data/scrape_20251001T040338Z.json
+[2025-10-01 05:03:38,535] INFO scraper: Saved: data/scrape_20251001T040338Z.json
+[2025-10-01 05:03:38,539] INFO scraper: Saved: data/scrape_20251001T040338Z.json
+[2025-10-01 05:03:38,558] INFO scraper: Saved: data/scrape_20251001T040338Z.json
+[2025-10-01 05:03:38,956] INFO scraper: Saved: data/scrape_20251001T040338Z.json
+[2025-10-01 05:03:38,956] INFO scraper: [CRAWL] Depth 2 (22/50): https://pti.icann.org
+[2025-10-01 05:03:38,957] INFO scraper: [CRAWL] Depth 2 (23/50): http://www.icann.org
+[2025-10-01 05:03:38,957] INFO scraper: [CRAWL] Depth 2 (24/50): https://www.icann.org/privacy/policy
+[2025-10-01 05:03:38,958] INFO scraper: [CRAWL] Depth 2 (25/50): https://www.icann.org/privacy/tos
+[2025-10-01 05:03:38,998] INFO scraper: [PW] goto https://pti.icann.org
+[2025-10-01 05:03:38,999] INFO scraper: [PW] goto https://www.icann.org/privacy/tos
+[2025-10-01 05:03:39,000] INFO scraper: [PW] goto https://www.icann.org/privacy/policy
+[2025-10-01 05:03:39,001] INFO scraper: [PW] goto http://www.icann.org
+[2025-10-01 05:03:42,237] INFO scraper: Saved: data/scrape_20251001T040342Z.json
+[2025-10-01 05:03:42,424] INFO scraper: Saved: data/scrape_20251001T040342Z.json
+[2025-10-01 05:03:42,464] INFO scraper: Saved: data/scrape_20251001T040342Z.json
+[2025-10-01 05:03:42,740] INFO scraper: Saved: data/scrape_20251001T040342Z.json
+[2025-10-01 05:03:42,789] INFO scraper: Saved: data/scrape_crawl_20251001T040342Z.json
+[2025-10-01 05:03:42,789] INFO scraper: Crawl complete. Pages: 25 saved: data/scrape_crawl_20251001T040342Z.json
+[2025-10-01 05:03:42,848] INFO scraper: Done.
+[2025-10-01 05:05:10,863] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0', 'device_type': 'desktop', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'Europe/Berlin', 'viewport': (1680, 1050), 'engine': 'playwright', 'headless': True}
+[2025-10-01 05:05:10,866] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 05:05:10,866] INFO scraper: Starting crawl: seeds=1 max_pages=50 max_depth=4 concurrency=6
+[2025-10-01 05:05:10,866] INFO scraper: [CRAWL] Depth 0 (1/50): http://books.toscrape.com
+[2025-10-01 05:05:11,849] INFO scraper: [PW] goto http://books.toscrape.com
+[2025-10-01 05:05:24,255] INFO scraper: Saved: data/scrape_20251001T040524Z.json
+[2025-10-01 05:05:24,257] INFO scraper: [CRAWL] Depth 1 (2/50): http://books.toscrape.com/index.html
+[2025-10-01 05:05:24,257] INFO scraper: [CRAWL] Depth 1 (3/50): http://books.toscrape.com/catalogue/category/books_1/index.html
+[2025-10-01 05:05:24,258] INFO scraper: [CRAWL] Depth 1 (4/50): http://books.toscrape.com/catalogue/category/books/travel_2/index.html
+[2025-10-01 05:05:24,259] INFO scraper: [CRAWL] Depth 1 (5/50): http://books.toscrape.com/catalogue/category/books/mystery_3/index.html
+[2025-10-01 05:05:24,259] INFO scraper: [CRAWL] Depth 1 (6/50): http://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
+[2025-10-01 05:05:24,329] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
+[2025-10-01 05:05:24,331] INFO scraper: [PW] goto http://books.toscrape.com/index.html
+[2025-10-01 05:05:24,332] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/travel_2/index.html
+[2025-10-01 05:05:24,334] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books_1/index.html
+[2025-10-01 05:05:24,337] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/mystery_3/index.html
+[2025-10-01 05:05:26,705] INFO scraper: Saved: data/scrape_20251001T040526Z.json
+[2025-10-01 05:05:27,711] INFO scraper: Saved: data/scrape_20251001T040527Z.json
+[2025-10-01 05:05:27,782] INFO scraper: Saved: data/scrape_20251001T040527Z.json
+[2025-10-01 05:05:27,791] INFO scraper: Saved: data/scrape_20251001T040527Z.json
+[2025-10-01 05:05:27,800] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:05:27,815] INFO scraper: Saved: data/scrape_20251001T040527Z.json
+[2025-10-01 05:05:27,816] INFO scraper: [CRAWL] Depth 1 (7/50): http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html
+[2025-10-01 05:05:27,816] INFO scraper: [CRAWL] Depth 1 (8/50): http://books.toscrape.com/catalogue/category/books/classics_6/index.html
+[2025-10-01 05:05:27,817] INFO scraper: [CRAWL] Depth 1 (9/50): http://books.toscrape.com/catalogue/category/books/philosophy_7/index.html
+[2025-10-01 05:05:27,818] INFO scraper: [CRAWL] Depth 1 (10/50): http://books.toscrape.com/catalogue/category/books/romance_8/index.html
+[2025-10-01 05:05:27,818] INFO scraper: [CRAWL] Depth 1 (11/50): http://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html
+[2025-10-01 05:05:27,819] INFO scraper: [CRAWL] Depth 1 (12/50): http://books.toscrape.com/catalogue/category/books/fiction_10/index.html
+[2025-10-01 05:05:27,870] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html
+[2025-10-01 05:05:27,872] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html
+[2025-10-01 05:05:27,873] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/romance_8/index.html
+[2025-10-01 05:05:27,874] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/philosophy_7/index.html
+[2025-10-01 05:05:27,875] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/classics_6/index.html
+[2025-10-01 05:05:27,876] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/fiction_10/index.html
+[2025-10-01 05:05:31,745] INFO scraper: Saved: data/scrape_20251001T040531Z.json
+[2025-10-01 05:05:32,220] INFO scraper: Saved: data/scrape_20251001T040532Z.json
+[2025-10-01 05:05:32,242] INFO scraper: Saved: data/scrape_20251001T040532Z.json
+[2025-10-01 05:05:32,329] INFO scraper: Saved: data/scrape_20251001T040532Z.json
+[2025-10-01 05:05:32,341] INFO scraper: Saved: data/scrape_20251001T040532Z.json
+[2025-10-01 05:05:32,383] INFO scraper: Saved: data/scrape_20251001T040532Z.json
+[2025-10-01 05:05:32,384] INFO scraper: [CRAWL] Depth 1 (13/50): http://books.toscrape.com/catalogue/category/books/childrens_11/index.html
+[2025-10-01 05:05:32,384] INFO scraper: [CRAWL] Depth 1 (14/50): http://books.toscrape.com/catalogue/category/books/religion_12/index.html
+[2025-10-01 05:05:32,385] INFO scraper: [CRAWL] Depth 1 (15/50): http://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html
+[2025-10-01 05:05:32,386] INFO scraper: [CRAWL] Depth 1 (16/50): http://books.toscrape.com/catalogue/category/books/music_14/index.html
+[2025-10-01 05:05:32,387] INFO scraper: [CRAWL] Depth 1 (17/50): http://books.toscrape.com/catalogue/category/books/default_15/index.html
+[2025-10-01 05:05:32,387] INFO scraper: [CRAWL] Depth 1 (18/50): http://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html
+[2025-10-01 05:05:32,446] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/default_15/index.html
+[2025-10-01 05:05:32,447] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/religion_12/index.html
+[2025-10-01 05:05:32,448] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/music_14/index.html
+[2025-10-01 05:05:32,449] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html
+[2025-10-01 05:05:32,451] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html
+[2025-10-01 05:05:32,453] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/childrens_11/index.html
+[2025-10-01 05:05:34,962] INFO scraper: Saved: data/scrape_20251001T040534Z.json
+[2025-10-01 05:05:35,539] INFO scraper: Saved: data/scrape_20251001T040535Z.json
+[2025-10-01 05:05:35,651] INFO scraper: Saved: data/scrape_20251001T040535Z.json
+[2025-10-01 05:05:35,931] INFO scraper: Saved: data/scrape_20251001T040535Z.json
+[2025-10-01 05:05:35,935] INFO scraper: Saved: data/scrape_20251001T040535Z.json
+[2025-10-01 05:05:35,976] INFO scraper: Saved: data/scrape_20251001T040535Z.json
+[2025-10-01 05:05:35,977] INFO scraper: [CRAWL] Depth 1 (19/50): http://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html
+[2025-10-01 05:05:35,977] INFO scraper: [CRAWL] Depth 1 (20/50): http://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
+[2025-10-01 05:05:35,978] INFO scraper: [CRAWL] Depth 1 (21/50): http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html
+[2025-10-01 05:05:35,979] INFO scraper: [CRAWL] Depth 1 (22/50): http://books.toscrape.com/catalogue/category/books/new-adult_20/index.html
+[2025-10-01 05:05:35,979] INFO scraper: [CRAWL] Depth 1 (23/50): http://books.toscrape.com/catalogue/category/books/young-adult_21/index.html
+[2025-10-01 05:05:35,980] INFO scraper: [CRAWL] Depth 1 (24/50): http://books.toscrape.com/catalogue/category/books/science_22/index.html
+[2025-10-01 05:05:36,028] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html
+[2025-10-01 05:05:36,030] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/new-adult_20/index.html
+[2025-10-01 05:05:36,033] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
+[2025-10-01 05:05:36,034] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html
+[2025-10-01 05:05:36,036] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/young-adult_21/index.html
+[2025-10-01 05:05:36,046] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/science_22/index.html
+[2025-10-01 05:05:38,192] INFO scraper: Saved: data/scrape_20251001T040538Z.json
+[2025-10-01 05:05:38,199] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:05:38,240] INFO scraper: Saved: data/scrape_20251001T040538Z.json
+[2025-10-01 05:05:38,980] INFO scraper: Saved: data/scrape_20251001T040538Z.json
+[2025-10-01 05:05:39,122] INFO scraper: Saved: data/scrape_20251001T040539Z.json
+[2025-10-01 05:05:39,314] INFO scraper: Saved: data/scrape_20251001T040539Z.json
+[2025-10-01 05:05:39,327] INFO scraper: Saved: data/scrape_20251001T040539Z.json
+[2025-10-01 05:05:39,327] INFO scraper: [CRAWL] Depth 1 (25/50): http://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+[2025-10-01 05:05:39,328] INFO scraper: [CRAWL] Depth 1 (26/50): http://books.toscrape.com/catalogue/category/books/paranormal_24/index.html
+[2025-10-01 05:05:39,328] INFO scraper: [CRAWL] Depth 1 (27/50): http://books.toscrape.com/catalogue/category/books/art_25/index.html
+[2025-10-01 05:05:39,329] INFO scraper: [CRAWL] Depth 1 (28/50): http://books.toscrape.com/catalogue/category/books/psychology_26/index.html
+[2025-10-01 05:05:39,330] INFO scraper: [CRAWL] Depth 1 (29/50): http://books.toscrape.com/catalogue/category/books/autobiography_27/index.html
+[2025-10-01 05:05:39,331] INFO scraper: [CRAWL] Depth 1 (30/50): http://books.toscrape.com/catalogue/category/books/parenting_28/index.html
+[2025-10-01 05:05:39,383] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+[2025-10-01 05:05:39,386] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/paranormal_24/index.html
+[2025-10-01 05:05:39,388] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/art_25/index.html
+[2025-10-01 05:05:39,389] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/autobiography_27/index.html
+[2025-10-01 05:05:39,391] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/psychology_26/index.html
+[2025-10-01 05:05:39,402] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/parenting_28/index.html
+[2025-10-01 05:05:49,387] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/autobiography_27/index.html: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at http://books.toscrape.com/catalogue/category/books/autobiography_27/index.html
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/autobiography_27/index.html", waiting until "load"
+
+[2025-10-01 05:05:49,388] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/poetry_23/index.html: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at http://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/poetry_23/index.html", waiting until "load"
+
+[2025-10-01 05:05:51,298] INFO scraper: Saved: data/scrape_20251001T040551Z.json
+[2025-10-01 05:05:51,304] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:05:51,318] INFO scraper: Saved: data/scrape_20251001T040551Z.json
+[2025-10-01 05:05:51,465] INFO scraper: Saved: data/scrape_20251001T040551Z.json
+[2025-10-01 05:05:51,481] INFO scraper: Saved: data/scrape_20251001T040551Z.json
+[2025-10-01 05:05:51,482] INFO scraper: [CRAWL] Depth 1 (31/50): http://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
+[2025-10-01 05:05:51,483] INFO scraper: [CRAWL] Depth 1 (32/50): http://books.toscrape.com/catalogue/category/books/humor_30/index.html
+[2025-10-01 05:05:51,483] INFO scraper: [CRAWL] Depth 1 (33/50): http://books.toscrape.com/catalogue/category/books/horror_31/index.html
+[2025-10-01 05:05:51,484] INFO scraper: [CRAWL] Depth 1 (34/50): http://books.toscrape.com/catalogue/category/books/history_32/index.html
+[2025-10-01 05:05:51,485] INFO scraper: [CRAWL] Depth 1 (35/50): http://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html
+[2025-10-01 05:05:51,486] INFO scraper: [CRAWL] Depth 1 (36/50): http://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html
+[2025-10-01 05:05:51,543] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/history_32/index.html
+[2025-10-01 05:05:51,544] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html
+[2025-10-01 05:05:51,545] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/horror_31/index.html
+[2025-10-01 05:05:51,546] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html
+[2025-10-01 05:05:51,547] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
+[2025-10-01 05:05:51,547] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/humor_30/index.html
+[2025-10-01 05:06:03,410] INFO scraper: Saved: data/scrape_20251001T040603Z.json
+[2025-10-01 05:06:03,662] INFO scraper: Saved: data/scrape_20251001T040603Z.json
+[2025-10-01 05:06:03,667] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:06:03,967] INFO scraper: Saved: data/scrape_20251001T040603Z.json
+[2025-10-01 05:06:04,565] INFO scraper: Saved: data/scrape_20251001T040604Z.json
+[2025-10-01 05:06:04,637] INFO scraper: Saved: data/scrape_20251001T040604Z.json
+[2025-10-01 05:06:04,736] INFO scraper: Saved: data/scrape_20251001T040604Z.json
+[2025-10-01 05:06:04,736] INFO scraper: [CRAWL] Depth 1 (37/50): http://books.toscrape.com/catalogue/category/books/business_35/index.html
+[2025-10-01 05:06:04,737] INFO scraper: [CRAWL] Depth 1 (38/50): http://books.toscrape.com/catalogue/category/books/biography_36/index.html
+[2025-10-01 05:06:04,738] INFO scraper: [CRAWL] Depth 1 (39/50): http://books.toscrape.com/catalogue/category/books/thriller_37/index.html
+[2025-10-01 05:06:04,739] INFO scraper: [CRAWL] Depth 1 (40/50): http://books.toscrape.com/catalogue/category/books/contemporary_38/index.html
+[2025-10-01 05:06:04,741] INFO scraper: [CRAWL] Depth 1 (41/50): http://books.toscrape.com/catalogue/category/books/spirituality_39/index.html
+[2025-10-01 05:06:04,741] INFO scraper: [CRAWL] Depth 1 (42/50): http://books.toscrape.com/catalogue/category/books/academic_40/index.html
+[2025-10-01 05:06:04,798] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/biography_36/index.html
+[2025-10-01 05:06:04,801] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/academic_40/index.html
+[2025-10-01 05:06:04,804] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/spirituality_39/index.html
+[2025-10-01 05:06:04,805] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/thriller_37/index.html
+[2025-10-01 05:06:04,806] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/business_35/index.html
+[2025-10-01 05:06:04,809] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/contemporary_38/index.html
+[2025-10-01 05:06:08,531] INFO scraper: Saved: data/scrape_20251001T040608Z.json
+[2025-10-01 05:06:08,620] INFO scraper: Saved: data/scrape_20251001T040608Z.json
+[2025-10-01 05:06:08,728] INFO scraper: Saved: data/scrape_20251001T040608Z.json
+[2025-10-01 05:06:08,871] INFO scraper: Saved: data/scrape_20251001T040608Z.json
+[2025-10-01 05:06:09,072] INFO scraper: Saved: data/scrape_20251001T040609Z.json
+[2025-10-01 05:06:09,073] INFO scraper: Saved: data/scrape_20251001T040609Z.json
+[2025-10-01 05:06:09,074] INFO scraper: [CRAWL] Depth 1 (43/50): http://books.toscrape.com/catalogue/category/books/self-help_41/index.html
+[2025-10-01 05:06:09,074] INFO scraper: [CRAWL] Depth 1 (44/50): http://books.toscrape.com/catalogue/category/books/historical_42/index.html
+[2025-10-01 05:06:09,075] INFO scraper: [CRAWL] Depth 1 (45/50): http://books.toscrape.com/catalogue/category/books/christian_43/index.html
+[2025-10-01 05:06:09,076] INFO scraper: [CRAWL] Depth 1 (46/50): http://books.toscrape.com/catalogue/category/books/suspense_44/index.html
+[2025-10-01 05:06:09,076] INFO scraper: [CRAWL] Depth 1 (47/50): http://books.toscrape.com/catalogue/category/books/short-stories_45/index.html
+[2025-10-01 05:06:09,077] INFO scraper: [CRAWL] Depth 1 (48/50): http://books.toscrape.com/catalogue/category/books/novels_46/index.html
+[2025-10-01 05:06:09,127] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/self-help_41/index.html
+[2025-10-01 05:06:09,129] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/historical_42/index.html
+[2025-10-01 05:06:09,130] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/novels_46/index.html
+[2025-10-01 05:06:09,131] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/christian_43/index.html
+[2025-10-01 05:06:09,134] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/short-stories_45/index.html
+[2025-10-01 05:06:09,140] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/suspense_44/index.html
+[2025-10-01 05:06:11,959] INFO scraper: Saved: data/scrape_20251001T040611Z.json
+[2025-10-01 05:06:11,990] INFO scraper: Saved: data/scrape_20251001T040611Z.json
+[2025-10-01 05:06:12,005] INFO scraper: Saved: data/scrape_20251001T040612Z.json
+[2025-10-01 05:06:12,020] INFO scraper: Saved: data/scrape_20251001T040612Z.json
+[2025-10-01 05:06:12,042] INFO scraper: Saved: data/scrape_20251001T040612Z.json
+[2025-10-01 05:06:12,130] INFO scraper: Saved: data/scrape_20251001T040612Z.json
+[2025-10-01 05:06:12,130] INFO scraper: [CRAWL] Depth 1 (49/50): http://books.toscrape.com/catalogue/category/books/health_47/index.html
+[2025-10-01 05:06:12,131] INFO scraper: [CRAWL] Depth 1 (50/50): http://books.toscrape.com/catalogue/category/books/politics_48/index.html
+[2025-10-01 05:06:12,171] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/politics_48/index.html
+[2025-10-01 05:06:12,172] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/health_47/index.html
+[2025-10-01 05:06:14,291] INFO scraper: Saved: data/scrape_20251001T040614Z.json
+[2025-10-01 05:06:14,296] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:06:14,942] INFO scraper: Saved: data/scrape_20251001T040614Z.json
+[2025-10-01 05:06:14,955] INFO scraper: Saved: data/scrape_crawl_20251001T040614Z.json
+[2025-10-01 05:06:14,955] INFO scraper: Crawl complete. Pages: 48 saved: data/scrape_crawl_20251001T040614Z.json
+[2025-10-01 05:06:14,981] INFO scraper: Done.
+[2025-10-01 05:06:31,642] INFO scraper: Fingerprint: {'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1', 'device_type': 'mobile', 'accept_language': 'en-US,en;q=0.9', 'locale': 'en-US', 'timezone': 'UTC', 'viewport': (375, 812), 'engine': 'playwright', 'headless': True}
+[2025-10-01 05:06:31,647] INFO scraper: Tor SOCKS proxy reachable.
+[2025-10-01 05:06:31,647] INFO scraper: Starting crawl: seeds=1 max_pages=50 max_depth=4 concurrency=6
+[2025-10-01 05:06:31,647] INFO scraper: [CRAWL] Depth 0 (1/50): http://books.toscrape.com
+[2025-10-01 05:06:32,348] INFO scraper: [PW] goto http://books.toscrape.com
+[2025-10-01 05:06:45,187] INFO scraper: Saved: data/scrape_20251001T040645Z.json
+[2025-10-01 05:06:45,188] INFO scraper: [CRAWL] Depth 1 (2/50): http://books.toscrape.com/index.html
+[2025-10-01 05:06:45,189] INFO scraper: [CRAWL] Depth 1 (3/50): http://books.toscrape.com/catalogue/category/books_1/index.html
+[2025-10-01 05:06:45,189] INFO scraper: [CRAWL] Depth 1 (4/50): http://books.toscrape.com/catalogue/category/books/travel_2/index.html
+[2025-10-01 05:06:45,190] INFO scraper: [CRAWL] Depth 1 (5/50): http://books.toscrape.com/catalogue/category/books/mystery_3/index.html
+[2025-10-01 05:06:45,190] INFO scraper: [CRAWL] Depth 1 (6/50): http://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
+[2025-10-01 05:06:45,250] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/travel_2/index.html
+[2025-10-01 05:06:45,251] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
+[2025-10-01 05:06:45,252] INFO scraper: [PW] goto http://books.toscrape.com/index.html
+[2025-10-01 05:06:45,253] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/mystery_3/index.html
+[2025-10-01 05:06:45,253] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books_1/index.html
+[2025-10-01 05:06:48,453] WARNING scraper: [CRAWL] Error http://books.toscrape.com/index.html: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at http://books.toscrape.com/index.html
+Call log:
+  - navigating to "http://books.toscrape.com/index.html", waiting until "load"
+
+[2025-10-01 05:06:48,455] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/travel_2/index.html: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at http://books.toscrape.com/catalogue/category/books/travel_2/index.html
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/travel_2/index.html", waiting until "load"
+
+[2025-10-01 05:06:48,456] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at http://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html", waiting until "load"
+
+[2025-10-01 05:07:00,266] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/mystery_3/index.html: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/mystery_3/index.html", waiting until "load"
+
+[2025-10-01 05:07:00,268] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books_1/index.html: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books_1/index.html", waiting until "load"
+
+[2025-10-01 05:07:00,268] INFO scraper: [CRAWL] Depth 1 (7/50): http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html
+[2025-10-01 05:07:00,269] INFO scraper: [CRAWL] Depth 1 (8/50): http://books.toscrape.com/catalogue/category/books/classics_6/index.html
+[2025-10-01 05:07:00,270] INFO scraper: [CRAWL] Depth 1 (9/50): http://books.toscrape.com/catalogue/category/books/philosophy_7/index.html
+[2025-10-01 05:07:00,271] INFO scraper: [CRAWL] Depth 1 (10/50): http://books.toscrape.com/catalogue/category/books/romance_8/index.html
+[2025-10-01 05:07:00,272] INFO scraper: [CRAWL] Depth 1 (11/50): http://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html
+[2025-10-01 05:07:00,273] INFO scraper: [CRAWL] Depth 1 (12/50): http://books.toscrape.com/catalogue/category/books/fiction_10/index.html
+[2025-10-01 05:07:00,351] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html
+[2025-10-01 05:07:00,351] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/classics_6/index.html
+[2025-10-01 05:07:00,352] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/philosophy_7/index.html
+[2025-10-01 05:07:00,353] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/romance_8/index.html
+[2025-10-01 05:07:00,354] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html
+[2025-10-01 05:07:00,355] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/fiction_10/index.html
+[2025-10-01 05:07:15,376] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html", waiting until "load"
+
+[2025-10-01 05:07:15,377] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/classics_6/index.html: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/classics_6/index.html", waiting until "load"
+
+[2025-10-01 05:07:15,378] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/philosophy_7/index.html: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/philosophy_7/index.html", waiting until "load"
+
+[2025-10-01 05:07:15,378] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/romance_8/index.html: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/romance_8/index.html", waiting until "load"
+
+[2025-10-01 05:07:15,378] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html", waiting until "load"
+
+[2025-10-01 05:07:15,379] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/fiction_10/index.html: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/fiction_10/index.html", waiting until "load"
+
+[2025-10-01 05:07:15,379] INFO scraper: [CRAWL] Depth 1 (13/50): http://books.toscrape.com/catalogue/category/books/childrens_11/index.html
+[2025-10-01 05:07:15,380] INFO scraper: [CRAWL] Depth 1 (14/50): http://books.toscrape.com/catalogue/category/books/religion_12/index.html
+[2025-10-01 05:07:15,381] INFO scraper: [CRAWL] Depth 1 (15/50): http://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html
+[2025-10-01 05:07:15,382] INFO scraper: [CRAWL] Depth 1 (16/50): http://books.toscrape.com/catalogue/category/books/music_14/index.html
+[2025-10-01 05:07:15,383] INFO scraper: [CRAWL] Depth 1 (17/50): http://books.toscrape.com/catalogue/category/books/default_15/index.html
+[2025-10-01 05:07:15,384] INFO scraper: [CRAWL] Depth 1 (18/50): http://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html
+[2025-10-01 05:07:15,450] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/default_15/index.html
+[2025-10-01 05:07:15,452] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html
+[2025-10-01 05:07:15,453] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/music_14/index.html
+[2025-10-01 05:07:15,454] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/childrens_11/index.html
+[2025-10-01 05:07:15,455] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html
+[2025-10-01 05:07:15,456] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/religion_12/index.html
+[2025-10-01 05:07:17,628] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/religion_12/index.html: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at http://books.toscrape.com/catalogue/category/books/religion_12/index.html
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/religion_12/index.html", waiting until "load"
+
+[2025-10-01 05:07:17,630] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/music_14/index.html: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at http://books.toscrape.com/catalogue/category/books/music_14/index.html
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/music_14/index.html", waiting until "load"
+
+[2025-10-01 05:07:20,977] INFO scraper: Saved: data/scrape_20251001T040720Z.json
+[2025-10-01 05:07:21,073] INFO scraper: Saved: data/scrape_20251001T040721Z.json
+[2025-10-01 05:07:21,269] INFO scraper: Saved: data/scrape_20251001T040721Z.json
+[2025-10-01 05:07:21,276] INFO scraper: Saved: data/scrape_20251001T040721Z.json
+[2025-10-01 05:07:21,285] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:07:21,292] INFO scraper: [CRAWL] Depth 1 (19/50): http://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html
+[2025-10-01 05:07:21,293] INFO scraper: [CRAWL] Depth 1 (20/50): http://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
+[2025-10-01 05:07:21,293] INFO scraper: [CRAWL] Depth 1 (21/50): http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html
+[2025-10-01 05:07:21,294] INFO scraper: [CRAWL] Depth 1 (22/50): http://books.toscrape.com/catalogue/category/books/new-adult_20/index.html
+[2025-10-01 05:07:21,295] INFO scraper: [CRAWL] Depth 1 (23/50): http://books.toscrape.com/catalogue/category/books/young-adult_21/index.html
+[2025-10-01 05:07:21,296] INFO scraper: [CRAWL] Depth 1 (24/50): http://books.toscrape.com/catalogue/category/books/science_22/index.html
+[2025-10-01 05:07:21,347] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html
+[2025-10-01 05:07:21,349] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html
+[2025-10-01 05:07:21,351] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/young-adult_21/index.html
+[2025-10-01 05:07:21,352] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
+[2025-10-01 05:07:21,353] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/new-adult_20/index.html
+[2025-10-01 05:07:21,361] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/science_22/index.html
+[2025-10-01 05:07:23,546] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at http://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html", waiting until "load"
+
+[2025-10-01 05:07:23,548] WARNING scraper: [CRAWL] Error http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html: Page.goto: net::ERR_SOCKS_CONNECTION_FAILED at http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html
+Call log:
+  - navigating to "http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html", waiting until "load"
+
+[2025-10-01 05:07:25,462] INFO scraper: Saved: data/scrape_20251001T040725Z.json
+[2025-10-01 05:07:25,548] INFO scraper: Saved: data/scrape_20251001T040725Z.json
+[2025-10-01 05:07:26,022] INFO scraper: Saved: data/scrape_20251001T040726Z.json
+[2025-10-01 05:07:26,328] INFO scraper: Saved: data/scrape_20251001T040726Z.json
+[2025-10-01 05:07:26,329] INFO scraper: [CRAWL] Depth 1 (25/50): http://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+[2025-10-01 05:07:26,329] INFO scraper: [CRAWL] Depth 1 (26/50): http://books.toscrape.com/catalogue/category/books/paranormal_24/index.html
+[2025-10-01 05:07:26,330] INFO scraper: [CRAWL] Depth 1 (27/50): http://books.toscrape.com/catalogue/category/books/art_25/index.html
+[2025-10-01 05:07:26,331] INFO scraper: [CRAWL] Depth 1 (28/50): http://books.toscrape.com/catalogue/category/books/psychology_26/index.html
+[2025-10-01 05:07:26,331] INFO scraper: [CRAWL] Depth 1 (29/50): http://books.toscrape.com/catalogue/category/books/autobiography_27/index.html
+[2025-10-01 05:07:26,332] INFO scraper: [CRAWL] Depth 1 (30/50): http://books.toscrape.com/catalogue/category/books/parenting_28/index.html
+[2025-10-01 05:07:26,386] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/autobiography_27/index.html
+[2025-10-01 05:07:26,388] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/parenting_28/index.html
+[2025-10-01 05:07:26,389] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/psychology_26/index.html
+[2025-10-01 05:07:26,390] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/paranormal_24/index.html
+[2025-10-01 05:07:26,391] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+[2025-10-01 05:07:26,392] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/art_25/index.html
+[2025-10-01 05:07:28,798] INFO scraper: Saved: data/scrape_20251001T040728Z.json
+[2025-10-01 05:07:28,804] INFO scraper: Saved: data/scrape_20251001T040728Z.json
+[2025-10-01 05:07:29,029] INFO scraper: Saved: data/scrape_20251001T040729Z.json
+[2025-10-01 05:07:29,047] INFO scraper: Saved: data/scrape_20251001T040729Z.json
+[2025-10-01 05:07:29,120] INFO scraper: Saved: data/scrape_20251001T040729Z.json
+[2025-10-01 05:07:29,424] INFO scraper: Saved: data/scrape_20251001T040729Z.json
+[2025-10-01 05:07:29,424] INFO scraper: [CRAWL] Depth 1 (31/50): http://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
+[2025-10-01 05:07:29,425] INFO scraper: [CRAWL] Depth 1 (32/50): http://books.toscrape.com/catalogue/category/books/humor_30/index.html
+[2025-10-01 05:07:29,426] INFO scraper: [CRAWL] Depth 1 (33/50): http://books.toscrape.com/catalogue/category/books/horror_31/index.html
+[2025-10-01 05:07:29,426] INFO scraper: [CRAWL] Depth 1 (34/50): http://books.toscrape.com/catalogue/category/books/history_32/index.html
+[2025-10-01 05:07:29,427] INFO scraper: [CRAWL] Depth 1 (35/50): http://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html
+[2025-10-01 05:07:29,427] INFO scraper: [CRAWL] Depth 1 (36/50): http://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html
+[2025-10-01 05:07:29,480] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/history_32/index.html
+[2025-10-01 05:07:29,483] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/humor_30/index.html
+[2025-10-01 05:07:29,484] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html
+[2025-10-01 05:07:29,487] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html
+[2025-10-01 05:07:29,489] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
+[2025-10-01 05:07:29,491] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/horror_31/index.html
+[2025-10-01 05:07:31,625] INFO scraper: Saved: data/scrape_20251001T040731Z.json
+[2025-10-01 05:07:31,629] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:07:31,758] INFO scraper: Saved: data/scrape_20251001T040731Z.json
+[2025-10-01 05:07:32,022] INFO scraper: Saved: data/scrape_20251001T040732Z.json
+[2025-10-01 05:07:32,634] INFO scraper: Saved: data/scrape_20251001T040732Z.json
+[2025-10-01 05:07:32,649] INFO scraper: Saved: data/scrape_20251001T040732Z.json
+[2025-10-01 05:07:32,791] INFO scraper: Saved: data/scrape_20251001T040732Z.json
+[2025-10-01 05:07:32,792] INFO scraper: [CRAWL] Depth 1 (37/50): http://books.toscrape.com/catalogue/category/books/business_35/index.html
+[2025-10-01 05:07:32,792] INFO scraper: [CRAWL] Depth 1 (38/50): http://books.toscrape.com/catalogue/category/books/biography_36/index.html
+[2025-10-01 05:07:32,793] INFO scraper: [CRAWL] Depth 1 (39/50): http://books.toscrape.com/catalogue/category/books/thriller_37/index.html
+[2025-10-01 05:07:32,794] INFO scraper: [CRAWL] Depth 1 (40/50): http://books.toscrape.com/catalogue/category/books/contemporary_38/index.html
+[2025-10-01 05:07:32,794] INFO scraper: [CRAWL] Depth 1 (41/50): http://books.toscrape.com/catalogue/category/books/spirituality_39/index.html
+[2025-10-01 05:07:32,795] INFO scraper: [CRAWL] Depth 1 (42/50): http://books.toscrape.com/catalogue/category/books/academic_40/index.html
+[2025-10-01 05:07:32,852] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/academic_40/index.html
+[2025-10-01 05:07:32,854] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/biography_36/index.html
+[2025-10-01 05:07:32,855] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/thriller_37/index.html
+[2025-10-01 05:07:32,856] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/spirituality_39/index.html
+[2025-10-01 05:07:32,856] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/contemporary_38/index.html
+[2025-10-01 05:07:32,857] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/business_35/index.html
+[2025-10-01 05:07:35,603] INFO scraper: Saved: data/scrape_20251001T040735Z.json
+[2025-10-01 05:07:35,667] INFO scraper: Saved: data/scrape_20251001T040735Z.json
+[2025-10-01 05:07:35,682] INFO scraper: Saved: data/scrape_20251001T040735Z.json
+[2025-10-01 05:07:35,908] INFO scraper: Saved: data/scrape_20251001T040735Z.json
+[2025-10-01 05:07:35,912] INFO scraper: Saved: data/scrape_20251001T040735Z.json
+[2025-10-01 05:07:37,958] INFO scraper: Saved: data/scrape_20251001T040737Z.json
+[2025-10-01 05:07:37,958] INFO scraper: [CRAWL] Depth 1 (43/50): http://books.toscrape.com/catalogue/category/books/self-help_41/index.html
+[2025-10-01 05:07:37,959] INFO scraper: [CRAWL] Depth 1 (44/50): http://books.toscrape.com/catalogue/category/books/historical_42/index.html
+[2025-10-01 05:07:37,959] INFO scraper: [CRAWL] Depth 1 (45/50): http://books.toscrape.com/catalogue/category/books/christian_43/index.html
+[2025-10-01 05:07:37,960] INFO scraper: [CRAWL] Depth 1 (46/50): http://books.toscrape.com/catalogue/category/books/suspense_44/index.html
+[2025-10-01 05:07:37,961] INFO scraper: [CRAWL] Depth 1 (47/50): http://books.toscrape.com/catalogue/category/books/short-stories_45/index.html
+[2025-10-01 05:07:37,961] INFO scraper: [CRAWL] Depth 1 (48/50): http://books.toscrape.com/catalogue/category/books/novels_46/index.html
+[2025-10-01 05:07:38,013] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/suspense_44/index.html
+[2025-10-01 05:07:38,014] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/christian_43/index.html
+[2025-10-01 05:07:38,015] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/historical_42/index.html
+[2025-10-01 05:07:38,016] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/self-help_41/index.html
+[2025-10-01 05:07:38,017] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/novels_46/index.html
+[2025-10-01 05:07:38,018] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/short-stories_45/index.html
+[2025-10-01 05:07:41,288] INFO scraper: Saved: data/scrape_20251001T040741Z.json
+[2025-10-01 05:07:41,304] INFO scraper: Saved: data/scrape_20251001T040741Z.json
+[2025-10-01 05:07:41,310] INFO scraper: Saved: data/scrape_20251001T040741Z.json
+[2025-10-01 05:07:41,331] INFO scraper: Saved: data/scrape_20251001T040741Z.json
+[2025-10-01 05:07:41,348] INFO scraper: Saved: data/scrape_20251001T040741Z.json
+[2025-10-01 05:07:41,395] INFO scraper: Saved: data/scrape_20251001T040741Z.json
+[2025-10-01 05:07:41,395] INFO scraper: [CRAWL] Depth 1 (49/50): http://books.toscrape.com/catalogue/category/books/health_47/index.html
+[2025-10-01 05:07:41,396] INFO scraper: [CRAWL] Depth 1 (50/50): http://books.toscrape.com/catalogue/category/books/politics_48/index.html
+[2025-10-01 05:07:41,436] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/politics_48/index.html
+[2025-10-01 05:07:41,436] INFO scraper: [PW] goto http://books.toscrape.com/catalogue/category/books/health_47/index.html
+[2025-10-01 05:07:43,647] INFO scraper: Saved: data/scrape_20251001T040743Z.json
+[2025-10-01 05:07:43,652] INFO scraper: Tor NEWNYM requested.
+[2025-10-01 05:07:43,810] INFO scraper: Saved: data/scrape_20251001T040743Z.json
+[2025-10-01 05:07:43,818] INFO scraper: Saved: data/scrape_crawl_20251001T040743Z.json
+[2025-10-01 05:07:43,818] INFO scraper: Crawl complete. Pages: 35 saved: data/scrape_crawl_20251001T040743Z.json
+[2025-10-01 05:07:43,839] INFO scraper: Done.

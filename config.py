@@ -53,7 +53,8 @@ class Config:
     timeout_ms: int = 15000
     storage_dir: str = "data"
     engine: str = "playwright"
-    proxy_enabled: bool = False
+    # Tor now mandatory; proxy_enabled defaults True and can be disabled only via env SCRAPER_PROXY=0 if needed
+    proxy_enabled: bool = True
     tor_socks_host: str = "127.0.0.1"
     tor_socks_port: int = 9050
     captcha_api_key: str | None = None
@@ -64,6 +65,11 @@ class Config:
     timezone: str = ""
     viewport: tuple[int, int] = field(default_factory=lambda: (1920, 1080))
     device_type: str = "desktop"
+    playwright_browser: str = "firefox"  # new: 'firefox', 'chromium', or 'webkit'
+    max_concurrency: int = 1
+    rate_max_per_interval: int | None = None
+    rate_interval_seconds: float = 60.0
+    rate_min_delay_seconds: float = 0.0
 
     @classmethod
     def from_env(cls) -> "Config":
@@ -72,7 +78,7 @@ class Config:
             timeout_ms=int(os.getenv("SCRAPER_TIMEOUT_MS", "15000")),
             storage_dir=os.getenv("SCRAPER_STORAGE", "data"),
             engine=os.getenv("SCRAPER_ENGINE", "playwright"),
-            proxy_enabled=os.getenv("SCRAPER_PROXY", "0") == "1",
+            proxy_enabled=os.getenv("SCRAPER_PROXY", "1") == "1",  # default now 1 (enabled)
             tor_socks_host=os.getenv("TOR_SOCKS_HOST", "127.0.0.1"),
             tor_socks_port=int(os.getenv("TOR_SOCKS_PORT", "9050")),
             captcha_api_key=os.getenv("CAPTCHA_API_KEY"),
@@ -81,7 +87,11 @@ class Config:
             tor_control_password=os.getenv("TOR_CONTROL_PASSWORD"),
             tor_rotation_min_interval_s=int(os.getenv("TOR_ROTATE_MIN_S", "10")),
             tor_request_threshold=int(os.getenv("TOR_ROTATE_REQ_THRESHOLD", "5")),
-
+            playwright_browser=os.getenv("SCRAPER_PW_BROWSER", "firefox"),
+            max_concurrency=int(os.getenv("SCRAPER_MAX_CONCURRENCY", "1")),
+            rate_max_per_interval=(int(os.getenv("SCRAPER_RATE_MAX", "0")) or None),
+            rate_interval_seconds=float(os.getenv("SCRAPER_RATE_INTERVAL", "60")),
+            rate_min_delay_seconds=float(os.getenv("SCRAPER_RATE_MIN_DELAY", "0")),
         )
         if cfg.randomize:
             profile = random.choice(UA_PROFILES)
@@ -92,7 +102,6 @@ class Config:
             cfg.timezone = random.choice(profile.timezones)
             cfg.viewport = random.choice(profile.viewports)
         else:
-            # Deterministic fallback: first profile
             profile = UA_PROFILES[0]
             cfg.user_agent = os.getenv("SCRAPER_UA", profile.user_agent)
             cfg.device_type = profile.device_type

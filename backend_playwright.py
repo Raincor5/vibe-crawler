@@ -12,22 +12,34 @@ class PlaywrightBackend:
         if self._browser:
             return
         self._pw = await async_playwright().start()
-        self._browser = await self._pw.firefox.launch(
+        browser_name = (self.cfg.playwright_browser or "firefox").lower()
+        if browser_name not in ("firefox", "chromium", "webkit"):
+            self.logger.warning(f"Unknown Playwright browser '{browser_name}', defaulting to firefox")
+            browser_name = "firefox"
+        launcher = getattr(self._pw, browser_name)
+        self._browser = await launcher.launch(
             headless=self.cfg.headless,
             proxy=self.proxy,
         )
+        self._browser_name = browser_name
 
-    async def grab(self, task, timeout_ms: int) -> dict:
+    async def grab(self, task, timeout_ms: int, gather_links: bool = False) -> dict:
         await self._ensure()
-        is_mobile = self.cfg.device_type == "mobile"
+        is_mobile_profile = self.cfg.device_type == "mobile"
+        # Firefox does not support isMobile/hasTouch flags in new_context
+        mobile_kwargs = {}
+        if is_mobile_profile and self._browser_name != "firefox":
+            mobile_kwargs = {
+                "is_mobile": True,
+                "has_touch": True,
+                "device_scale_factor": 3,
+            }
         context = await self._browser.new_context(
             user_agent=self.cfg.user_agent,
             locale=self.cfg.locale,
             timezone_id=self.cfg.timezone,
             viewport={"width": self.cfg.viewport[0], "height": self.cfg.viewport[1]},
-            is_mobile=is_mobile,
-            has_touch=is_mobile,
-            device_scale_factor=3 if is_mobile else 1,
+            **mobile_kwargs,
         )
         page = await context.new_page()
         page.set_default_timeout(timeout_ms)
@@ -40,14 +52,35 @@ class PlaywrightBackend:
             for sel in task.selectors:
                 try:
                     els = await page.query_selector_all(sel)
-                    vals = []
+                    records = []
                     for el in els:
-                        txt = (await el.inner_text()).strip()
-                        if txt:
-                            vals.append(" ".join(txt.split()))
-                    data[sel] = vals
+                        try:
+                            raw_text = (await el.inner_text()).strip()
+                        except Exception:
+                            raw_text = ""
+                        try:
+                            raw_html = await el.inner_html()
+                        except Exception:
+                            raw_html = ""
+                        if raw_text or raw_html:
+                            records.append({
+                                "text": " ".join(raw_text.split()) if raw_text else "",
+                                "html": raw_html
+                            })
+                    data[sel] = records
                 except PlaywrightTimeoutError:
                     self.logger.warning(f"[PW] selector timeout {sel}")
+            if gather_links:
+                try:
+                    anchor_els = await page.query_selector_all('a')
+                    links = []
+                    for a in anchor_els:
+                        href = await a.get_attribute('href')
+                        if href:
+                            links.append(href.strip())
+                    data['__links__'] = links
+                except Exception as e:  # noqa
+                    self.logger.warning(f"[PW] link collection failed: {e}")
         finally:
             await context.close()
         return data
